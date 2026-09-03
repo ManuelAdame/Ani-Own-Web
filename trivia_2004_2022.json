@@ -1,0 +1,186 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "¿Quién falta en esta imagen?",
+      "image": "static/images/trivia/Gemini_Generated_Image_qg3hnxqg3hnxqg3h.png",
+      "answer_image": "static/images/trivia/IMG-20220614-WA0006.jpg",
+      "options": [
+        "Sofía Luque",
+        "Geesche Jungkurth",
+        "Sheila Bastián",
+        "Miss Mi"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "id": 2,
+      "question": "¿Quién falta en esta foto?",
+      "image": "static/images/trivia/Gemini_Generated_Image_jymvcqjymvcqjymv.png",
+      "answer_image": "static/images/trivia/WhatsApp Image 2026-01-02 at 23.21.19 (1).jpeg",
+      "options": [
+        "Nicolás",
+        "Fernando Arrans",
+        "Navarrete",
+        "Cordero"
+      ],
+      "correct_answer": 3
+    },
+    {
+      "id": 3,
+      "question": "¿Qué ratón está durmiendo en la foto?",
+      "image": "static/images/trivia/Gemini_Generated_Image_p2gw5sp2gw5sp2gw.png",
+      "answer_image": "static/images/trivia/WhatsApp Image 2026-01-02 at 23.21.19 (2).jpeg",
+      "options": [
+        "Luis",
+        "Pablo",
+        "Lozano",
+        "Selu"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "id": 4,
+      "question": "¿A quién le regalamos los tontos de los penaltis este peluche?",
+      "image": "static/images/trivia/WhatsApp Image 2026-01-02 at 23.21.19.jpeg",
+      "answer_image": "static/images/trivia/WhatsApp Image 2026-01-02 at 23.21.19.jpeg",
+      "options": [
+        "Sofía",
+        "Cordero",
+        "Nicolás",
+        "Guadalupe"
+      ],
+      "correct_answer": 3
+    },
+    {
+      "id": 5,
+      "question": "¿Qué imbécil se tiró al río para recuperar la bola de unos chavales del pueblo de Asturias?",
+      "image": "static/images/trivia/Gemini_Generated_Image_tjtrn2tjtrn2tjtr.png",
+      "answer_image": "static/images/trivia/WhatsApp Image 2026-01-02 at 23.21.20.jpeg",
+      "options": [
+        "Er nane",
+        "Papelón",
+        "Lete",
+        "Qin Chen"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "id": 6,
+      "question": "¿Quién falta en esta foto de presiousi Rousi?",
+      "image": "static/images/trivia/Gemini_Generated_Image_8djb218djb218djb.png",
+      "answer_image": "static/images/trivia/WhatsApp Image 2026-01-02 at 23.21.17 (2).jpeg",
+      "options": [
+        "Sole",
+        "Santi",
+        "Papelón",
+        "Lozano"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "id": 7,
+      "question": "¿De qué color iba vestida esta celebridad?",
+      "image": "static/images/trivia/WhatsApp Image 2026-01-02 at 23.21.17.jpeg",
+      "answer_image": "static/images/trivia/csczczc.jpeg",
+      "options": [
+        "Azul/Celeste",
+        "Rosa/Burdeos",
+        "Gris",
+        "Blanco"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "id": 8,
+      "question": "¿De dónde es este espejo en la que Rousi también se hizo fotos luego pero no encuentro?",
+      "image": "static/images/trivia/WhatsApp Image 2026-01-02 at 23.21.17 (1).jpeg",
+      "answer_image": "static/images/trivia/WhatsApp Image 2026-01-02 at 23.21.17 (1).jpeg",
+      "options": [
+        "Graduación",
+        "Puesta de alguién en los labradores",
+        "Puesta de Lozano",
+        "Casa de Santi"
+      ],
+      "correct_answer": 2
+    },
+    {
+      "id": 9,
+      "question": "¿Qué cojonero falta en la foto?",
+      "image": "static/images/trivia/Gemini_Generated_Image_ch7wjnch7wjnch7w.png",
+      "answer_image": "static/images/trivia/WhatsApp Image 2026-01-02 at 23.21.21 (1).jpeg",
+      "options": [
+        "Ela",
+        "Carlos",
+        "Albert",
+        "Diego Jiménez"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "id": 10,
+      "question": "¿De quién es la casa con este patio?",
+      "image": "static/images/trivia/WhatsApp Image 2026-01-02 at 23.21.21 (2).jpeg",
+      "answer_image": "static/images/trivia/WhatsApp Image 2026-01-02 at 23.21.21 (2).jpeg",
+      "options": [
+        "Santi",
+        "Papelón",
+        "Carlos de Luis",
+        "Yo que sé"
+      ],
+      "correct_answer": 2
+    },
+    {
+      "id": 11,
+      "question": "¿Quién sacó este fotón?",
+      "image": "static/images/trivia/WhatsApp Image 2026-01-02 at 23.21.21.jpeg",
+      "answer_image": "static/images/trivia/WhatsApp Image 2026-01-02 at 23.21.21.jpeg",
+      "options": [
+        "Meris Sorian",
+        "Carlos",
+        "Ela",
+        "Meris Moren"
+      ],
+      "correct_answer": 3
+    },
+    {
+      "id": 12,
+      "question": "¿De quién es la casa del fondo?",
+      "image": "static/images/trivia/WhatsApp Image 2026-01-02 at 23.21.22 (1).jpeg",
+      "answer_image": "static/images/trivia/WhatsApp Image 2026-01-02 at 23.21.22 (1).jpeg",
+      "options": [
+        "Carlos de Luis",
+        "Ezra",
+        "Peric Mat Baló",
+        "Selu Alcalde"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "id": 13,
+      "question": "¿Qué partido estábamos viendo en la foto?",
+      "image": "static/images/trivia/WhatsApp Image 2026-01-02 at 23.21.22.jpeg",
+      "answer_image": "static/images/trivia/WhatsApp Image 2026-01-02 at 23.21.22.jpeg",
+      "options": [
+        "Madrid-Barca",
+        "Joventut-Betis",
+        "Betis-Madrid",
+        "Barca-Joventut"
+      ],
+      "correct_answer": 2
+    },
+    {
+      "id": 14,
+      "question": "¿Dónde y quién hizo la foto?",
+      "image": "static/images/trivia/WhatsApp Image 2026-01-02 at 23.21.22 (2).jpeg",
+      "answer_image": "static/images/trivia/WhatsApp Image 2026-01-02 at 23.21.22 (2).jpeg",
+      "options": [
+        "Papelón en la Casa de Santi",
+        "Luis en la Casa de Carlos de Luis",
+        "Sole en la Casa de Carlos de Luis",
+        "Rafa(el rata que no responde a mi presiousi) en la Casa de Santi"
+      ],
+      "correct_answer": 3
+    }
+  ]
+}

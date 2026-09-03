@@ -1,0 +1,329 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "¿Qué pueblo es este?",
+      "image": "static/images/Trivia2025/WhatsApp Image 2026-01-08 at 13.41.37 (1).jpeg",
+      "answer_image": "static/images/Trivia2025/WhatsApp Image 2026-01-08 at 13.41.37 (1).jpeg",
+      "options": [
+        "Grazalema",
+        "El Bosque",
+        "Majadora",
+        "Setenil de las Bodegas"
+      ],
+      "correct_answer": 3
+    },
+    {
+      "id": 2,
+      "question": "¿De qué sabor era la tarta?",
+      "image": "static/images/Trivia2025/fafa.jpeg",
+      "answer_image": "static/images/Trivia2025/WhatsApp Image 2026-01-08 at 13.41.37.jpeg",
+      "options": [
+        "Kinder Bueno",
+        "Oreo",
+        "Chocolate Dubai",
+        "Queso Payoyo"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "id": 3,
+      "question": "¿Qué amiguit@ falta en esta foto?",
+      "image": "static/images/Trivia2025/Gemini_Generated_Image_scviukscviukscvi.png",
+      "answer_image": "static/images/Trivia2025/WhatsApp Image 2026-01-08 at 13.41.38 (1).jpeg",
+      "options": [
+        "Meris Sorian",
+        "Lewis Frutes en traje de flamenca",
+        "Acho los Garbanzos",
+        "La madre de Lewis"
+      ],
+      "correct_answer": 2
+    },
+    {
+      "id": 4,
+      "question": "¿Cómo se llama esta ruta de senderismo?",
+      "image": "static/images/Trivia2025/WhatsApp Image 2026-01-08 at 13.41.38.jpeg",
+      "answer_image": "static/images/Trivia2025/WhatsApp Image 2026-01-08 at 13.41.38.jpeg",
+      "options": [
+        "Senda de Benamahoma",
+        "Sendero del Río Majaceite",
+        "Ruta de las Maravillas",
+        "Camino de tierra normal no te rayes"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "id": 5,
+      "question": "¿Qué desayunamos ese día de feria?",
+      "image": "static/images/Trivia2025/feria.jpeg",
+      "answer_image": "static/images/Trivia2025/WhatsApp Image 2026-01-08 at 13.41.39.jpeg",
+      "options": [
+        "Churros",
+        "Filetito de lomo",
+        "Pirulo",
+        "Nada"
+      ],
+      "correct_answer": 2
+    },
+    {
+      "id": 6,
+      "question": "¿Qué amiguit@ falta en esta foto?",
+      "image": "static/images/Trivia2025/dw.jpeg",
+      "answer_image": "static/images/Trivia2025/WhatsApp Image 2026-01-08 at 13.41.40 (1).jpeg",
+      "options": [
+        "Gala",
+        "Benito",
+        "Linda",
+        "Nadie jaja"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "id": 7,
+      "question": "¿Qué obra de arte hicimos ese día(en la foto)?",
+      "image": "static/images/Trivia2025/fr.jpeg",
+      "answer_image": "static/images/Trivia2025/WhatsApp Image 2026-01-08 at 13.41.40 (2).jpeg",
+      "options": [
+        "Pimientitos",
+        "AliOli casero",
+        "Guacamole",
+        "Tortillita de papa"
+      ],
+      "correct_answer": 3
+    },
+    {
+      "id": 8,
+      "question": "¿Qué partido fue ese?",
+      "image": "static/images/Trivia2025/WhatsApp Image 2026-01-08 at 13.41.40 (3).jpeg",
+      "answer_image": "static/images/Trivia2025/WhatsApp Image 2026-01-08 at 13.41.40 (3).jpeg",
+      "options": [
+        "CD Gines-CB Qalat",
+        "Cb Qalat-CB Mercantil",
+        "Matemáticas-Informática",
+        "CB Tomares-Reverso"
+      ],
+      "correct_answer": 2
+    },
+    {
+      "id": 9,
+      "question": "¿Qué amiguit@ falta en esta foto?",
+      "image": "static/images/Trivia2025/Gemini_Generated_Image_kl3vrxkl3vrxkl3v.png",
+      "answer_image": "static/images/Trivia2025/WhatsApp Image 2026-01-08 at 13.41.40.jpeg",
+      "options": [
+        "Meris Moren",
+        "Marta Milla",
+        "Acho los Garbanzos",
+        "Tronco"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "id": 10,
+      "question": "¿Qué tengo en la mano?",
+      "image": "static/images/Trivia2025/ju.jpeg",
+      "answer_image": "static/images/Trivia2025/WhatsApp Image 2026-01-08 at 13.41.41 (1).jpeg",
+      "options": [
+        "La carta del kebab",
+        "El libro de viaje de Marruecos",
+        "Un palo de la calle",
+        "London Calling"
+      ],
+      "correct_answer": 3
+    },
+    {
+      "id": 11,
+      "question": "¿De dónde veníamos?",
+      "image": "static/images/Trivia2025/WhatsApp Image 2026-01-08 at 13.41.41.jpeg",
+      "answer_image": "static/images/Trivia2025/WhatsApp Image 2026-01-08 at 13.41.41.jpeg",
+      "options": [
+        "Casa Periquet",
+        "Partidito del qala",
+        "Pure Latin",
+        "Paseíto por Sevilla sin dni de la Rousi"
+      ],
+      "correct_answer": 2
+    },
+    {
+      "id": 12,
+      "question": "¿Dónde fue tomada la foto?",
+      "image": "static/images/Trivia2025/WhatsApp Image 2026-01-08 at 13.41.44 (1).jpeg",
+      "answer_image": "static/images/Trivia2025/WhatsApp Image 2026-01-08 at 13.41.44 (1).jpeg",
+      "options": [
+        "Manilva Beach",
+        "Lepe Beach",
+        "Grasalem",
+        "Conil de la Frontier"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "id": 13,
+      "question": "¿De qué color era el bikini top de Rousi?",
+      "image": "static/images/Trivia2025/bg.jpeg",
+      "answer_image": "static/images/Trivia2025/WhatsApp Image 2026-01-08 at 13.41.44 (2).jpeg",
+      "options": [
+        "Verde del Beti",
+        "Negro ome",
+        "Azul como el mar asul",
+        "Rosa buganvilla"
+      ],
+      "correct_answer": 2
+    },
+    {
+      "id": 14,
+      "question": "¿Dónde fue tomada esta foto?",
+      "image": "static/images/Trivia2025/WhatsApp Image 2026-01-08 at 13.41.47.jpeg",
+      "answer_image": "static/images/Trivia2025/WhatsApp Image 2026-01-08 at 13.41.47.jpeg",
+      "options": [
+        "Grazalema",
+        "Parque de María Luisa",
+        "Setenil de las Bodegas",
+        "London"
+      ],
+      "correct_answer": 3
+    },
+    {
+      "id": 15,
+      "question": "¿Dónde tuvo lugar esta foto?",
+      "image": "static/images/Trivia2025/WhatsApp Image 2026-01-08 at 13.41.44.jpeg",
+      "answer_image": "static/images/Trivia2025/WhatsApp Image 2026-01-08 at 13.41.44.jpeg",
+      "options": [
+        "Rousi's Sofa",
+        "Sofá de Lolo playa",
+        "Casa Ela",
+        "Casa Albert"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "id": 16,
+      "question": "¿Por qué estaba Rousi tan feliz?",
+      "image": "static/images/Trivia2025/WhatsApp Image 2026-01-08 at 13.41.45 (1).jpeg",
+      "answer_image": "static/images/Trivia2025/WhatsApp Image 2026-01-08 at 13.41.45 (1).jpeg",
+      "options": [
+        "Clavó un dardo en el centro de la diana",
+        "Ganó al ping pong",
+        "Metió un bolón en el billar",
+        "Se encontró 20 céntimos"
+      ],
+      "correct_answer": 2
+    },
+    {
+      "id": 17,
+      "question": "¿Qué amiguit@ falta en esta foto?",
+      "image": "static/images/Trivia2025/Gemini_Generated_Image_6gg4vc6gg4vc6gg4.png",
+      "answer_image": "static/images/Trivia2025/WhatsApp Image 2026-01-08 at 13.41.45 (2).jpeg",
+      "options": [
+        "Huguito",
+        "Rocío Chica",
+        "Primo Leo",
+        "Marin"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "id": 18,
+      "question": "¿Por qué iba Ela con el bolso?",
+      "image": "static/images/Trivia2025/WhatsApp Image 2026-01-08 at 13.41.45 (3).jpeg",
+      "answer_image": "static/images/Trivia2025/WhatsApp Image 2026-01-08 at 13.41.45 (3).jpeg",
+      "options": [
+        "Se le olvidó que lo llevaba",
+        "Para que no se lo robaran a Marin",
+        "Porque se le olvidó a Merin",
+        "Porque le quedaba bien"
+      ],
+      "correct_answer": 3
+    },
+    {
+      "id": 19,
+      "question": "¿Qué amiguit@ falta en esta foto?",
+      "image": "static/images/Trivia2025/Gemini_Generated_Image_3khnzo3khnzo3khn.png",
+      "answer_image": "static/images/Trivia2025/WhatsApp Image 2026-01-08 at 13.41.45 (4).jpeg",
+      "options": [
+        "María Teresa",
+        "Steve(ELA)",
+        "Carlitos",
+        "Lucía G"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "id": 20,
+      "question": "¿Qué amiguit@ falta en esta foto?",
+      "image": "static/images/Trivia2025/tg.jpeg",
+      "answer_image": "static/images/Trivia2025/WhatsApp Image 2026-01-08 at 13.41.45.jpeg",
+      "options": [
+        "Tupper de croquetas, empanadillas y tequeños",
+        "El cahopito",
+        "La tortilla de papa",
+        "nasho con queso y bacon"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "id": 21,
+      "question": "¿Quién iba dibujado en el medio?",
+      "image": "static/images/Trivia2025/tttt.jpeg",
+      "answer_image": "static/images/Trivia2025/WhatsApp Image 2026-01-08 at 13.41.46 (1).jpeg",
+      "options": [
+        "Ani",
+        "Ela",
+        "Linda",
+        "Mamá Paqui"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "id": 22,
+      "question": "¿Dónde fue tomada esta foto?",
+      "image": "static/images/Trivia2025/WhatsApp Image 2026-01-08 at 13.41.46 (2).jpeg",
+      "answer_image": "static/images/Trivia2025/WhatsApp Image 2026-01-08 at 13.41.46 (2).jpeg",
+      "options": [
+        "Grazalema",
+        "La Antilla",
+        "Sabinilla",
+        "London"
+      ],
+      "correct_answer": 3
+    },
+    {
+      "id": 23,
+      "question": "¿Qué amiguit@ falta en esta foto?",
+      "image": "static/images/Trivia2025/ñpp.jpeg",
+      "answer_image": "static/images/Trivia2025/WhatsApp Image 2026-01-08 at 13.41.46.jpeg",
+      "options": [
+        "Peric Trabajando",
+        "Marin",
+        "Lolo",
+        "Nadie"
+      ],
+      "correct_answer": 2
+    },
+    {
+      "id": 24,
+      "question": "¿Qué era ese local?",
+      "image": "static/images/Trivia2025/WhatsApp Image 2026-01-08 at 13.41.47 (1).jpeg",
+      "answer_image": "static/images/Trivia2025/WhatsApp Image 2026-01-08 at 13.41.47 (1).jpeg",
+      "options": [
+        "Un arcade con frikis apestosos",
+        "Una discoteca pastillera",
+        "Un kebab",
+        "El hogar de la mafia de Chinatown"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "id": 25,
+      "question": "¿Qué amiguit@ falta en esta foto?",
+      "image": "static/images/Trivia2025/Gemini_Generated_Image_gw94prgw94prgw94.png",
+      "answer_image": "static/images/Trivia2025/WhatsApp Image 2026-01-08 at 13.41.47 (2).jpeg",
+      "options": [
+        "Lolo",
+        "Ángel",
+        "Carlitos",
+        "Un random que se coló"
+      ],
+      "correct_answer": 1
+    }
+  ]
+}

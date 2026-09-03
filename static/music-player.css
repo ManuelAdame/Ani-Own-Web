@@ -1,0 +1,162 @@
+.music-player {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+
+.music-player.minimized {
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.music-player.minimized .player-content {
+    display: none;
+}
+
+.music-player.minimized .minimize-btn {
+    display: none;
+}
+
+.music-player.minimized::after {
+    content: '🎵';
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.player-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.song-info {
+    flex: 1;
+    min-width: 200px;
+}
+
+.song-title {
+    font-size: 0.9em;
+    color: #8b0000;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.song-status {
+    font-size: 0.75em;
+    color: #666;
+}
+
+.minimize-btn {
+    background: none;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #666;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.2s;
+}
+
+.minimize-btn:hover {
+    color: #8b0000;
+}
+
+.player-controls {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    justify-content: center;
+}
+
+.control-btn {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #d4af37;
+    transition: all 0.2s;
+    padding: 5px;
+}
+
+.control-btn:hover {
+    transform: scale(1.1);
+    color: #c99c27;
+}
+
+.control-btn.play-pause {
+    font-size: 2em;
+}
+
+.volume-control {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.volume-icon {
+    font-size: 1.2em;
+    color: #d4af37;
+}
+
+.volume-control input[type="range"] {
+    flex: 1;
+    height: 6px;
+    border-radius: 3px;
+    background: #ddd;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+.volume-control input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #d4af37;
+    cursor: pointer;
+}
+
+.volume-control input[type="range"]::-moz-range-thumb {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #d4af37;
+    cursor: pointer;
+    border: none;
+}
+
+@media (max-width: 768px) {
+    .music-player {
+        bottom: 10px;
+        left: 10px;
+        right: 10px;
+    }
+
+    .song-info {
+        max-width: 100%;
+    }
+}

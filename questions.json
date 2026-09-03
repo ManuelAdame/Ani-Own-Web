@@ -1,0 +1,554 @@
+{
+  "questions": [
+    {
+      "letter": "A",
+      "question": "Nombre de la cazuela de patatas fav de Rousi",
+      "answer": "Ankara"
+    },
+    {
+      "letter": "A",
+      "question": "Nombre del kebab que han quitado de Tomares y era el fav de Rousi",
+      "answer": "Auténtico"
+    },
+    {
+      "letter": "A",
+      "question": "Regalo que le dió Lolo a Rousi el día que jugamos al padel contra Angie y Gonsa",
+      "answer": "Álbum"
+    },
+    {
+      "letter": "A",
+      "question": "Asignatura muy chuli(en verdad no se) de Rousi en la uni ... farmaceútica",
+      "answer": "Atención"
+    },
+    {
+      "letter": "A",
+      "question": "Palabra que aparece en la señal vial de stop de COsta Rica",
+      "answer": "Alto"
+    },
+    {
+      "letter": "B",
+      "question": "Nombre del bar en Bollullos con el camarero graciosillo",
+      "answer": "Bernal"
+    },
+    {
+      "letter": "B",
+      "question": "Uno de los dos restaurantes de sushi SIN buffet a los que hemos ido",
+      "answer": "Boulevard"
+    },
+    {
+      "letter": "B",
+      "question": "Hamburguesería top y la fav de Rousi",
+      "answer": "Bacanal"
+    },
+    {
+      "letter": "B",
+      "question": "Primera parada del viaje a Asturias",
+      "answer": "Burgos"
+    },
+    {
+      "letter": "B",
+      "question": "Regalo de Lolo a Rousi el primer verano",
+      "answer": "Balón"
+    },
+    {
+      "letter": "C",
+      "question": "Cosa que se pone el personaje de Rousi en el Animal Crossing cuando va a mover una mesa(por si acaso)",
+      "answer": "Casco"
+    },
+    {
+      "letter": "C",
+      "question": "Nombre de la autora de 'Acho, pero esperadme que caliente los garbanzos acho'",
+      "answer": "Claudia"
+    },
+    {
+      "letter": "C",
+      "question": "London ...",
+      "answer": "Calling"
+    },
+    {
+      "letter": "C",
+      "question": "Plato que Rousi le copió a mi abuela ... con patatas",
+      "answer": "Calabacín"
+    },
+    {
+      "letter": "C",
+      "question": "Plato que Rousi siempre pide en la choza ... picante",
+      "answer": "Chorizo"
+    },
+    {
+      "letter": "C",
+      "question": "Lo que reduce el Danacol",
+      "answer": "Colesterol"
+    },
+    {
+      "letter": "C",
+      "question": "Nombre de Navarrete",
+      "answer": "Carlos"
+    },
+    {
+      "letter": "D",
+      "question": "Director de Hogwarts",
+      "answer": "Dumbledore"
+    },
+    {
+      "letter": "D",
+      "question": "Apellido de Nicolás el tutor",
+      "answer": "Díaz"
+    },
+    {
+      "letter": "D",
+      "question": "Nombre artístico completo del cantante autor de Danza Kuduro",
+      "answer": "Don Omar"
+    },
+    {
+      "letter": "D",
+      "question": "Regalo musical de Lolo a Rousi",
+      "answer": "Disco"
+    },
+    {
+      "letter": "D",
+      "question": "Nombre completo del sitio al que iremos cuando ahorremos un poquito ... Paris",
+      "answer": "DisneyLand"
+    },
+    {
+      "letter": "E",
+      "question": "Notisia de urtima hora, aquí en la playa está mi ...",
+      "answer": "Ex"
+    },
+    {
+      "letter": "E",
+      "question": "Steve",
+      "answer": "Eladio"
+    },
+    {
+      "letter": "E",
+      "question": "Color ...",
+      "answer": "Esperanza"
+    },
+    {
+      "letter": "E",
+      "question": "Cantante más escuchado del wrapped de Rousi",
+      "answer": "Eladio Carrión"
+    },
+    {
+      "letter": "E",
+      "question": "Completa la canción 'Jóvenes ... Jóvenes Millonarios",
+      "answer": "Empresarios"
+    },
+    {
+      "letter": "F",
+      "question": "Hada de la naturalez de las winx",
+      "answer": "Flora"
+    },
+    {
+      "letter": "F",
+      "question": "Nombre de mi primo hermano de Rocío",
+      "answer": "Felipe"
+    },
+    {
+      "letter": "F",
+      "question": "Plato que nos intoxicó en la caseta de BLANCA MOLINAAAAAAAAA",
+      "answer": "Flamenquín"
+    },
+    {
+      "letter": "F",
+      "question": "Tienda en la que rousi encontró las adidas de regalo para Ani",
+      "answer": "Footlocker"
+    },
+    {
+      "letter": "F",
+      "question": "Amigo de Relinque que fue compañero de Lolo en padel",
+      "answer": "Freire"
+    },
+    {
+      "letter": "G",
+      "question": "Completa el nombre del restaurante 'Cuchara del ...'",
+      "answer": "Gorila"
+    },
+    {
+      "letter": "G",
+      "question": "Producto farmacéutico en el que te bajan bomberos por la garganta para cubrir el estómago",
+      "answer": "Gaviscon"
+    },
+    {
+      "letter": "G",
+      "question": "Mejor amigo de Suneo",
+      "answer": "Gigante"
+    },
+    {
+      "letter": "G",
+      "question": "Tienda en la que le compramos a Papelón los videojuegos de Fear",
+      "answer": "Game"
+    },
+    {
+      "letter": "G",
+      "question": "Completa el nombre de la calle de la feria ' ... de Triana'",
+      "answer": "Gitanillo"
+    },
+    {
+      "letter": "H",
+      "question": "Canción de Eladio Carrión que comparte nombre con un primo de Lolo",
+      "answer": "Hugo"
+    },
+    {
+      "letter": "H",
+      "question": "Completa el grupo de música '... G'",
+      "answer": "Hombres"
+    },
+    {
+      "letter": "H",
+      "question": "Canción de Eladio Carrión incluída en la peli 'Un Color Especial' de Lolo Productions",
+      "answer": "Hielo"
+    },
+    {
+      "letter": "H",
+      "question": "Nombre completo del plato de sushi '... maki'",
+      "answer": "Hoso"
+    },
+    {
+      "letter": "H",
+      "question": "Relación familiar de los presentadores de la casa de tus sueños ",
+      "answer": "Hermanos"
+    },
+    {
+      "letter": "I",
+      "question": "Nombre completo del juego cooperativo que la Rousi se pasó con su mando chuli",
+      "answer": "It takes two"
+    },
+    {
+      "letter": "I",
+      "question": "Pais con capital en Reikjavik",
+      "answer": "Islandia"
+    },
+    {
+      "letter": "I",
+      "question": "Completa el nombre del país '... Marshall'",
+      "answer": "Islas"
+    },
+    {
+      "letter": "I",
+      "question": "Pueblo de Samantha la de Masterchef",
+      "answer": "Illescas"
+    },
+    {
+      "letter": "J",
+      "question": "Plato que pidió la familia de chinos en la Choza",
+      "answer": "Jamón"
+    },
+    {
+      "letter": "J",
+      "question": "País de Usain Bolt",
+      "answer": "Jamaica"
+    },
+    {
+      "letter": "J",
+      "question": "Nombre de la cuenta de instagram de Jisus el profe",
+      "answer": "Jesushpliego"
+    },
+    {
+      "letter": "J",
+      "question": "Apellido del exjugador del qala que trabaja de reparador de cafeteras",
+      "answer": "Jiménez"
+    },
+    {
+      "letter": "K",
+      "question": "Nombre de un lego ultrashuli de la Rous",
+      "answer": "Kevin"
+    },
+    {
+      "letter": "K",
+      "question": "Fruta laxante para cortar el estreñimiento",
+      "answer": "Kiwi"
+    },
+    {
+      "letter": "K",
+      "question": "Nombre del cantante que actuó en el descanso de la superbowl en 2 ocasiones '... Lamar'",
+      "answer": "Kendrick"
+    },
+    {
+      "letter": "K",
+      "question": "Nombre de la menor de las kardashian",
+      "answer": "Kylie"
+    },
+    {
+      "letter": "L",
+      "question": "Código pupipupipupopo",
+      "answer": "Lyoko"
+    },
+    {
+      "letter": "L",
+      "question": "Bebida de desayuno que Rousi no puede oler ni probar",
+      "answer": "Leche"
+    },
+    {
+      "letter": "L",
+      "question": "Verdura frecuente en la ensalada que no le sienta bien a Rousi",
+      "answer": "Lechuga"
+    },
+    {
+      "letter": "L",
+      "question": "Producto de maquillaje que Rousi lleva casi siempre encima y se deja muchas veces en el coche de Lolo(1 palabra)",
+      "answer": "Lápiz"
+    },
+    {
+      "letter": "M",
+      "question": "Nombre y apellido de nuestro acompañante en el primer día de Puro Latino juntos",
+      "answer": "María Soriano"
+    },
+    {
+      "letter": "M",
+      "question": "Bar de Grazalema top",
+      "answer": "Maroma"
+    },
+    {
+      "letter": "M",
+      "question": "Canción de Eladio Carrión que casi mata de una estampida a Rousi en el concierto",
+      "answer": "Mbappe"
+    },
+    {
+      "letter": "M",
+      "question": "Restaurante de Poke y Sushi en Tomares",
+      "answer": "Makana"
+    },
+    {
+      "letter": "N",
+      "question": "Pretendiente de Lucía G",
+      "answer": "Nachocoche"
+    },
+    {
+      "letter": "N",
+      "question": "Plato estrella de Rousi en el microondas",
+      "answer": "Nachos"
+    },
+    {
+      "letter": "N",
+      "question": "Nombre del padre de Juan Pereda",
+      "answer": "Nacho"
+    },
+    {
+      "letter": "N",
+      "question": "Completa el nombre del grupo de música de Mario Vaquerizo 'Las ... rubias'",
+      "answer": "Nancys"
+    },
+    {
+      "letter": "O",
+      "question": "Primer disfraz de Joaquín en la cabalgata",
+      "answer": "Olaf"
+    },
+    {
+      "letter": "O",
+      "question": "Nombre de la persona multada por Marlaska por ir a 160 en una vía de servicio",
+      "answer": "Óscar"
+    },
+    {
+      "letter": "O",
+      "question": "Según el de los gemeliers, instrumento usado para asar los alimentos",
+      "answer": "Olla"
+    },
+    {
+      "letter": "O",
+      "question": "Nombre de la cantante Alaska",
+      "answer": "Olvido"
+    },
+    {
+      "letter": "P",
+      "question": "Término de nuestra excusa para añadirnos un acierto cuando fallamos en el pasapalabra por poco",
+      "answer": "Palito"
+    },
+    {
+      "letter": "P",
+      "question": "Figurante del pin de Londres",
+      "answer": "Paddington"
+    },
+    {
+      "letter": "P",
+      "question": "Segundo disfraz de Joaquín en la cabalgata",
+      "answer": "Papa Noel"
+    },
+    {
+      "letter": "P",
+      "question": "Completa la estación de tren en la que nos bajamos en Londres y nos montamos en la vuelta 'ST ... International'",
+      "answer": "Pancras"
+    },
+    {
+      "letter": "Q",
+      "question": "Asignatura que imparte Sofía",
+      "answer": "Química"
+    },
+    {
+      "letter": "Q",
+      "question": "Alimento de la marca marca 'Flor de Esgueva'",
+      "answer": "Queso"
+    },
+    {
+      "letter": "Q",
+      "question": "Cantante de Wanda",
+      "answer": "Quevedo"
+    },
+    {
+      "letter": "Q",
+      "question": "Grupo del que formó parte Freddy Mercury",
+      "answer": "Queen"
+    },
+    {
+      "letter": "R",
+      "question": "Persona rata que no te pasa los apuntes de química para María Moreno",
+      "answer": "Rafa"
+    },
+    {
+      "letter": "R",
+      "question": "Solomillo al ...",
+      "answer": "Roquefort"
+    },
+    {
+      "letter": "R",
+      "question": "Nombre de una de las hijas de Lola Flores y exjurado de la voz",
+      "answer": "Rosario"
+    },
+    {
+      "letter": "R",
+      "question": "Completa el bar/tienda de Londres, Hard ... Café",
+      "answer": "Rock"
+    },
+    {
+      "letter": "S",
+      "question": "Nombre de Eladio por salir en todas las fotos con nosotros",
+      "answer": "Steve"
+    },
+    {
+      "letter": "S",
+      "question": "Mejor comida de London",
+      "answer": "Sushidog"
+    },
+    {
+      "letter": "S",
+      "question": "Nombre del río que bajamos en Asturias, el descenso del ...",
+      "answer": "Sella"
+    },
+    {
+      "letter": "S",
+      "question": "Nombre de la cuenta de instagram que peinó a Rousi para su graduación y la subieron como su modelo",
+      "answer": "Sgsalonxp"
+    },
+    {
+      "letter": "T",
+      "question": "Lugar de donde Rousi envió la primera postal a Lolo",
+      "answer": "Tailandia"
+    },
+    {
+      "letter": "T",
+      "question": "Plato estrella de Juan",
+      "answer": "Tallarines"
+    },
+    {
+      "letter": "T",
+      "question": "Completa la canción 'Me lo paró, el ...'",
+      "answer": "Taxi"
+    },
+    {
+      "letter": "T",
+      "question": "Vas muy bien ...",
+      "answer": "Terelu"
+    },
+    {
+      "letter": "U",
+      "question": "Fruta que Rousi supuestamente le robó a Ampari y terminó comiendo más que ella",
+      "answer": "Uva"
+    },
+    {
+      "letter": "U",
+      "question": "Sabor nuevo descubierto recientemente",
+      "answer": "Umami"
+    },
+    {
+      "letter": "U",
+      "question": "Nombre de la hija de Lola y Javi en lqsa",
+      "answer": "Ursula"
+    },
+    {
+      "letter": "U",
+      "question": "País con capital en Uagadugú y del cual podría ser el novio de Carrorro",
+      "answer": "Uganda"
+    },
+    {
+      "letter": "V",
+      "question": "Marca del avión en el que fuimos a Londres",
+      "answer": "Vueling"
+    },
+    {
+      "letter": "V",
+      "question": "Nombre que le da Estela Reynolds al Vampiricántropo",
+      "answer": "Vampirikiki"
+    },
+    {
+      "letter": "V",
+      "question": "Nombre del dueño de Alimentación Luna",
+      "answer": "Victor"
+    },
+    {
+      "letter": "V",
+      "question": "Restaurante inspirado en Paris donde trabajó el gordo de Peric Mat Baló",
+      "answer": "Voltereta"
+    },
+    {
+      "letter": "X",
+      "question": "Contiene la X: Hueso del culito",
+      "answer": "Coxis"
+    },
+    {
+      "letter": "X",
+      "question": "Contiene la X: hormona importante para el parto, la lactancia y las interacciones sociales",
+      "answer": "Oxitocina"
+    },
+    {
+      "letter": "X",
+      "question": "Cantante autor de Moonlight o SAD!",
+      "answer": "Xxxtentacion"
+    },
+    {
+      "letter": "X",
+      "question": "Nombre del presentador de Lo sabe/No lo sabe",
+      "answer": "Xuso"
+    },
+    {
+      "letter": "Y",
+      "question": "Contiene la y: Canción de Ozuna y Bad Gyal de 2025",
+      "answer": "Guay"
+    },
+    {
+      "letter": "Y",
+      "question": "Contiene la y: cantante y autor de Torero",
+      "answer": "Chayanne"
+    },
+    {
+      "letter": "Y",
+      "question": "Apellido de la china random del curso 'Yia ...'",
+      "answer": "Yu"
+    },
+    {
+      "letter": "Y",
+      "question": "Contiene la y: Completa la canción '... la vi, bailando por ahí",
+      "answer": "Ayer"
+    },
+    {
+      "letter": "Z",
+      "question": "Regalo de reyes que siempre la cae a Rousi",
+      "answer": "Zapatos"
+    },
+    {
+      "letter": "Z",
+      "question": "Clase dentro del gimnasio para bailar",
+      "answer": "Zumba"
+    },
+    {
+      "letter": "Z",
+      "question": "Canción más famosa de 'El Canto del Loco'",
+      "answer": "Zapatillas"
+    },
+    {
+      "letter": "Z",
+      "question": "Instrumento de navidad entre palillos y panderos",
+      "answer": "Zambomba"
+    }
+  ]
+}

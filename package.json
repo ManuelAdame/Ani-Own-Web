@@ -1,0 +1,9 @@
+{
+  "name": "regalo-especial",
+  "version": "1.0.0",
+  "description": "Una página especial como regalo",
+  "scripts": {
+    "start": "python app.py",
+    "dev": "python app.py"
+  }
+}

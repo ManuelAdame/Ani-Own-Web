@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "question": "¿Qué ciudades visitamos en el crucero?",
+      "correct_options": ["Pisa", "Roma", "Barcelona", "Mónaco"],
+      "incorrect_option": "Nápoles"
+    },
+    {
+      "question": "¿Quién son los mayores?",
+      "correct_options": ["Tita María", "Tito Antonio", "Tita Nieves", "Mami"],
+      "incorrect_option": "Tito Francisco"
+    },
+    {
+      "question": "¿Qué profesores fueron tutores nuestros?",
+      "correct_options": ["Carmen del Peso", "Mr Charles", "Joaquina", "Fernando de Cáceres"],
+      "incorrect_option": "Eduardo"
+    },
+    {
+      "question": "¿Qué asignaturas eran troncales en Selectividad para nosotros?",
+      "correct_options": ["Matemáticas", "Inglés", "Lengua", "Historia"],
+      "incorrect_option": "Filosofía"
+    },
+    {
+      "question": "¿Qué marcas de zapatos le ha regalado Lolo a Rousi?",
+      "correct_options": ["Coolway", "Columbia", "Adidas", "Esta está bien"],
+      "incorrect_option": "Nike"
+    },
+    {
+      "question": "¿Qué cócteles hemos pedido en bares estando los dos en ese mismo sitio?",
+      "correct_options": ["San Francisco", "Daikiri", "Piña Colada", "Mojito"],
+      "incorrect_option": "Sex on the beach"
+    },
+    {
+      "question": "¿Qué platos hemos probado del ikea?",
+      "correct_options": ["Codillo", "Alitas", "Tarta de Chocolate", "Café"],
+      "incorrect_option": "Medallón de Merluza"
+    },
+    {
+      "question": "¿Qué paises hemos visitado los dos a la vez?",
+      "correct_options": ["Alemania", "Inglaterra", "España", "Esta está bien"],
+      "incorrect_option": "Portugal"
+    },
+    {
+      "question": "¿Qué comidas comimos en Londres?",
+      "correct_options": ["Hamburger", "Funky Chips", "Corn Dog", "Sushidog"],
+      "incorrect_option": "Fish and Chips"
+    },
+    {
+      "question": "¿Qué videojuegos ha jugado Rousi conmigo?",
+      "correct_options": ["Juegos Olímpicos Londres 2012", "Eurotruck Simulator", "Day Z", "Pro 2006"],
+      "incorrect_option": "FIFA"
+    }
+  ]
+}

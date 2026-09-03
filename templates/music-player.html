@@ -1,0 +1,28 @@
+<link rel="stylesheet" href="/static/music-player.css">
+
+<div class="music-player" onclick="if(this.classList.contains('minimized')) MusicPlayer.maximize()">
+    <div class="player-content">
+        <div class="player-header">
+            <div class="song-info">
+                <div class="song-title" id="songTitle">Cargando música...</div>
+                <div class="song-status" id="songStatus">--:-- / --:--</div>
+            </div>
+            <button class="minimize-btn" onclick="event.stopPropagation(); MusicPlayer.minimize()" title="Minimizar">−</button>
+        </div>
+        
+        <div class="player-controls">
+            <button class="control-btn" onclick="event.stopPropagation(); MusicPlayer.previousSong()" title="Anterior">⏮️</button>
+            <button class="control-btn play-pause" id="playPauseBtn" onclick="event.stopPropagation(); MusicPlayer.togglePlayPause()" title="Play/Pause">▶️</button>
+            <button class="control-btn" onclick="event.stopPropagation(); MusicPlayer.nextSong()" title="Siguiente">⏭️</button>
+        </div>
+        
+        <div class="volume-control">
+            <span class="volume-icon">🔊</span>
+            <input type="range" id="volumeSlider" min="0" max="100" value="50" onclick="event.stopPropagation()">
+        </div>
+    </div>
+</div>
+
+<audio id="audioPlayer" preload="auto"></audio>
+
+<script src="/static/music-player.js"></script>

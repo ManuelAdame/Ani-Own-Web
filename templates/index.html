@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los 18 de Ana</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-image: url('/static/IMG_1915.JPG');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+            padding: 20px;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        header p {
+            font-size: 1.3em;
+            opacity: 0.95;
+        }
+
+        .sections {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .card h2 {
+            color: #8b0000;
+            margin-bottom: 20px;
+            font-size: 2em;
+            border-bottom: 3px solid #d4af37;
+            padding-bottom: 10px;
+        }
+
+        .card p {
+            color: #666;
+            line-height: 1.6;
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+
+        .card-content {
+            margin-top: 15px;
+        }
+
+        .item {
+            background: #f9f9f9;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+            border-left: 4px solid #d4af37;
+        }
+
+        .item strong {
+            color: #8b0000;
+        }
+
+        .item a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 15px;
+            background: #d4af37;
+            color: #8b0000;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+
+        .item a:hover {
+            background: #c99c27;
+            transform: scale(1.05);
+        }
+
+        @media (max-width: 768px) {
+            .sections {
+                grid-template-columns: 1fr;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Los 18 de Ana</h1>
+            <p>Recuerdos de siempre y para siempre</p>
+        </header>
+
+        <div class="sections">
+            <div class="card">
+                <h2>🎮 Juegos</h2>
+                <p>Diversión y entretenimiento</p>
+                <div class="card-content">
+                    <div class="item">
+                        <strong>Pasapalabra:</strong> ¿Conoces todas las palabras?
+                        <br><a href="/pasapalabra">Jugar →</a>
+                    </div>
+                    <div class="item">
+                        <strong>Sopa de Letras:</strong> Encuentra todas las palabras
+                        <br><a href="/sopa-de-letras">Jugar →</a>
+                    </div>
+                    <div class="item">
+                        <strong>Boom:</strong> Evita decir la palabra prohibida
+                        <br><a href="/boom">Jugar →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>💭 Recuerdos</h2>
+                <p>Momentos a recordar a través de los años</p>
+                <div class="card-content">
+                    <div class="item">
+                        <strong>2004-2022:</strong> Los primeros años juntos...
+                        <br><a href="/trivia-2004-2022">Ver Trivia →</a>
+                    </div>
+                    <div class="item">
+                        <strong>2023:</strong> Un año de nuevas aventuras...
+                        <br><a href="/trivia-2023">Ver Trivia →</a>
+                    </div>
+                    <div class="item">
+                        <strong>2024:</strong> Más recuerdos para guardar...
+                        <br><a href="/trivia-2024">Ver Trivia →</a>
+                    </div>
+                    <div class="item">
+                        <strong>2025:</strong> El futuro empieza ahora...
+                        <br><a href="/trivia-2025">Ver Trivia →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% include 'music-player.html' %}
+</body>
+</html>

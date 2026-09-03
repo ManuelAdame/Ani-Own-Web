@@ -1,0 +1,264 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "¿Qué fuimos a ver en la foto?",
+      "image": "static/images/Trivia2024/WhatsApp Image 2026-01-08 at 12.41.33 (1).jpeg",
+      "answer_image": "static/images/Trivia2024/WhatsApp Image 2026-01-08 at 12.41.33 (1).jpeg",
+      "options": [
+        "Los Harlem Globetrotters",
+        "Al Qala",
+        "Una peli",
+        "La Copa de la Reina"
+      ],
+      "correct_answer": 3
+    },
+    {
+      "id": 2,
+      "question": "¿Cuándo fue esta foto?",
+      "image": "static/images/Trivia2024/WhatsApp Image 2026-01-08 at 12.41.33.jpeg",
+      "answer_image": "static/images/Trivia2024/WhatsApp Image 2026-01-08 at 12.41.33.jpeg",
+      "options": [
+        "Semana Santa",
+        "Última semana de Agosto",
+        "El Martes de Feria",
+        "September Vibes"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "id": 3,
+      "question": "¿De quién era esta exposición?",
+      "image": "static/images/Trivia2024/Gemini_Generated_Image_i5fbr2i5fbr2i5fb.png",
+      "answer_image": "static/images/Trivia2024/WhatsApp Image 2026-01-08 at 12.41.34 (1).jpeg",
+      "options": [
+        "De Lolo",
+        "De Rousi",
+        "De Victoria Secret",
+        "De José María FERIA"
+      ],
+      "correct_answer": 3
+    },
+    {
+      "id": 4,
+      "question": "¿De qué color era el vestido de Rousi?",
+      "image": "static/images/Trivia2024/WhatsApp Image 2026-01-08 at 12.41.34 (3).jpeg",
+      "answer_image": "static/images/Trivia2024/WhatsApp Image 2026-01-08 at 12.41.34 (3).jpeg",
+      "options": [
+        "Azul",
+        "Verde",
+        "Blanco",
+        "Negro y Blanco"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "id": 5,
+      "question": "¿Qué amiguit@ falta en la foto?",
+      "image": "static/images/Trivia2024/Gemini_Generated_Image_el1f1xel1f1xel1f.png",
+      "answer_image": "static/images/Trivia2024/WhatsApp Image 2026-01-08 at 12.41.34.jpeg",
+      "options": [
+        "Steve(ELA)",
+        "El Militar",
+        "No one no one no oneeee",
+        "Albert"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "id": 6,
+      "question": "¿Qué amiguit@ hizo esta foto(realmente era un vídeo)?",
+      "image": "static/images/Trivia2024/WhatsApp Image 2026-01-08 at 12.41.34 (2).jpeg",
+      "answer_image": "static/images/Trivia2024/WhatsApp Image 2026-01-08 at 12.41.34 (2).jpeg",
+      "options": [
+        "Papelón",
+        "Meris Moren",
+        "Lewis Frutes",
+        "La Paula Gómez Rousis bestie"
+      ],
+      "correct_answer": 2
+    },
+    {
+      "id": 7,
+      "question": "¿Del tío de quién era esta caseta?",
+      "image": "static/images/Trivia2024/Gemini_Generated_Image_77g12j77g12j77g1.png",
+      "answer_image": "static/images/Trivia2024/WhatsApp Image 2026-01-08 at 12.41.35 (1).jpeg",
+      "options": [
+        "De Lewis Frutes",
+        "De Claudia la de Zafra",
+        "De Paula Gómez",
+        "De Lucirupi"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "id": 8,
+      "question": "¿De qué equipo era la camiseta de Carlos ese día?",
+      "image": "static/images/Trivia2024/WhatsApp Image 2026-01-08 at 12.41.35 (2).jpeg",
+      "answer_image": "static/images/Trivia2024/WhatsApp Image 2026-01-08 at 12.41.35 (2).jpeg",
+      "options": [
+        "Sevilla FC",
+        "UD Loyola",
+        "Chicago Bulls",
+        "New York Knicks"
+      ],
+      "correct_answer": 3
+    },
+    {
+      "id": 9,
+      "question": "¿Qué amiguit@ falta en la foto que hizo la Rousi?",
+      "image": "static/images/Trivia2024/Gemini_Generated_Image_rqh7lxrqh7lxrqh7.png",
+      "answer_image": "static/images/Trivia2024/WhatsApp Image 2026-01-08 at 12.41.35.jpeg",
+      "options": [
+        "Lewis Frutes",
+        "Er Nane",
+        "Miguel El Catalán",
+        "Rousi misma"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "id": 10,
+      "question": "¿Dónde fue esta foto?",
+      "image": "static/images/Trivia2024/WhatsApp Image 2026-01-08 at 12.41.36 (1).jpeg",
+      "answer_image": "static/images/Trivia2024/WhatsApp Image 2026-01-08 at 12.41.36 (1).jpeg",
+      "options": [
+        "En el factory",
+        "En la Copa de la Reina",
+        "En los karts",
+        "Esperando al metro"
+      ],
+      "correct_answer": 2
+    },
+    {
+      "id": 11,
+      "question": "¿Dónde comimos ese día que nos paseamos por la feria de Tomares?",
+      "image": "static/images/Trivia2024/WhatsApp Image 2026-01-08 at 12.41.36 (2).jpeg",
+      "answer_image": "static/images/Trivia2024/WhatsApp Image 2026-01-08 at 12.41.36 (2).jpeg",
+      "options": [
+        "Boulevard",
+        "Tsibuya",
+        "El Lolo",
+        "kebabsito"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "id": 12,
+      "question": "¿Quiénes eran nuestros rivales ese día?",
+      "image": "static/images/Trivia2024/de.jpeg",
+      "answer_image": "static/images/Trivia2024/WhatsApp Image 2026-01-08 at 12.41.36.jpeg",
+      "options": [
+        "Angie Y Gonsa",
+        "Albert y Coñé",
+        "Ela y Merin",
+        "Luis y Paula Gómez"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "id": 13,
+      "question": "¿Dónde fue esta foto?",
+      "image": "static/images/Trivia2024/WhatsApp Image 2026-01-08 at 12.41.40.jpeg",
+      "answer_image": "static/images/Trivia2024/WhatsApp Image 2026-01-08 at 12.41.40.jpeg",
+      "options": [
+        "Aire Sur",
+        "Factory",
+        "Metromar",
+        "Burger King del Carrefour"
+      ],
+      "correct_answer": 3
+    },
+    {
+      "id": 14,
+      "question": "¿Qué amiguit@ falta en la foto",
+      "image": "static/images/Trivia2024/Gemini_Generated_Image_p5nkp6p5nkp6p5nk.png",
+      "answer_image": "static/images/Trivia2024/WhatsApp Image 2026-01-08 at 12.41.37 (1).jpeg",
+      "options": [
+        "Carlitos sorprendentemente",
+        "Ángel por la cara",
+        "Steve(ELA) como no",
+        "Un random que le pidió una foto a mi Rousi"
+      ],
+      "correct_answer": 2
+    },
+    {
+      "id": 15,
+      "question": "¿Qué restaurante es este?",
+      "image": "static/images/Trivia2024/WhatsApp Image 2026-01-08 at 12.41.40 (1).jpeg",
+      "answer_image": "static/images/Trivia2024/WhatsApp Image 2026-01-08 at 12.41.40 (1).jpeg",
+      "options": [
+        "La Tortuga",
+        "La Choza de Manuela",
+        "Rodri",
+        "El lobo"
+      ],
+      "correct_answer": 2
+    },
+    {
+      "id": 16,
+      "question": "¿Dónde fue esta foto?",
+      "image": "static/images/Trivia2024/WhatsApp Image 2026-01-08 at 12.41.38 (1).jpeg",
+      "answer_image": "static/images/Trivia2024/WhatsApp Image 2026-01-08 at 12.41.38 (1).jpeg",
+      "options": [
+        "PDI como no",
+        "La Feria de Lepe con los gitanos",
+        "El barrio de Santa Cruz",
+        "En la piscina"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "id": 17,
+      "question": "¿Dónde fue esta foto?",
+      "image": "static/images/Trivia2024/WhatsApp Image 2026-01-08 at 12.41.38 (2).jpeg",
+      "answer_image": "static/images/Trivia2024/WhatsApp Image 2026-01-08 at 12.41.38 (2).jpeg",
+      "options": [
+        "Tomares",
+        "Mairena",
+        "Alcalá",
+        "Castilleja"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "id": 18,
+      "question": "¿Qué amiguit@ falta en la foto?",
+      "image": "static/images/Trivia2024/Gemini_Generated_Image_oti7kioti7kioti7.png",
+      "answer_image": "static/images/Trivia2024/WhatsApp Image 2026-01-08 at 12.41.37.jpeg",
+      "options": [
+        "Merin Obviamente",
+        "Merin Obviamente pero con gafas",
+        "Merin Obviamente pero con los ojos cerrados",
+        "Te imaginas que es Carlos jaja"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "id": 19,
+      "question": "¿Qué amiguit@ falta en la foto?",
+      "image": "static/images/Trivia2024/Gemini_Generated_Image_fukhoxfukhoxfukh.png",
+      "answer_image": "static/images/Trivia2024/WhatsApp Image 2026-01-08 at 12.41.38.jpeg",
+      "options": [
+        "Ángel",
+        "Merin(Ojalá)",
+        "Albert",
+        "Carlitos"
+      ],
+      "correct_answer": 3
+    },
+    {
+      "id": 20,
+      "question": "¿De dónde es este vaso?",
+      "image": "static/images/Trivia2024/WhatsApp Image 2026-01-08 at 12.41.39.jpeg",
+      "answer_image": "static/images/Trivia2024/WhatsApp Image 2026-01-08 at 12.41.39.jpeg",
+      "options": [
+        "Sushimi",
+        "Boulevard",
+        "Ocean",
+        "Tsibuya"
+      ],
+      "correct_answer": 2
+    }
+  ]
+}

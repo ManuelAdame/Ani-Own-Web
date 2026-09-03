@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasapalabra - Lolo y Rous</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #d4af37 0%, #8b0000 100%);
+            min-height: 100vh;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 900px;
+            width: 100%;
+        }
+
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1em;
+            padding: 10px 20px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            display: inline-block;
+            transition: background 0.3s;
+        }
+
+        .header a:hover {
+            background: rgba(255, 255, 255, 0.4);
+        }
+
+        .game-board {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 900px;
+            height: 900px;
+            margin: 0 auto 30px;
+            position: relative;
+        }
+
+        .circle {
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            border: 3px solid white;
+            padding: 10px;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .circle.answered {
+            background: rgba(139, 0, 0, 0.8);
+            border-color: #d4af37;
+        }
+
+        .circle.unanswered {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .circle.current {
+            background: rgba(212, 175, 55, 0.8);
+            border-color: white;
+            box-shadow: 0 0 20px rgba(212, 175, 55, 0.8);
+        }
+
+        .circle.correct {
+            background: rgba(34, 139, 34, 0.8);
+            border-color: #d4af37;
+        }
+
+        .circle.incorrect {
+            background: rgba(255, 69, 69, 0.8);
+            border-color: #d4af37;
+        }
+
+        .circle-letter {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: white;
+        }
+
+        .circle-status {
+            font-size: 0.8em;
+            color: #d4af37;
+            margin-top: 5px;
+        }
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .question-box h2 {
+            color: #8b0000;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+
+        .question-text {
+            font-size: 1.2em;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .input-group {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .input-group input {
+            flex: 1;
+            padding: 12px;
+            border: 2px solid #d4af37;
+            border-radius: 8px;
+            font-size: 1em;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .btn {
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: bold;
+        }
+
+        .btn-correct {
+            background: #22a022;
+            color: white;
+        }
+
+        .btn-correct:hover {
+            background: #1a7a1a;
+        }
+
+        .btn-skip {
+            background: #ff9800;
+            color: white;
+        }
+
+        .btn-skip:hover {
+            background: #e68900;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 10px;
+            color: white;
+            font-size: 1.1em;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #d4af37;
+        }
+
+        .palitos-container {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .palitos-btn {
+            background: #d4af37;
+            color: #8b0000;
+            border: none;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            font-size: 1.2em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .palitos-btn:hover {
+            background: #f0c651;
+            transform: scale(1.1);
+        }
+
+        .palitos-btn:active {
+            transform: scale(0.95);
+        }
+
+        .timer {
+            font-size: 1.8em;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .timer.warning {
+            background: rgba(255, 165, 0, 0.5);
+        }
+
+        .timer.danger {
+            background: rgba(255, 69, 69, 0.5);
+            animation: blink 0.5s infinite;
+        }
+
+        @keyframes blink {
+            0%, 49% { opacity: 1; }
+            50%, 100% { opacity: 0.5; }
+        }
+
+        .results-container {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .result-box {
+            background: white;
+            padding: 20px 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .result-box.correct {
+            border-left: 5px solid #22a022;
+        }
+
+        .result-box.incorrect {
+            border-left: 5px solid #ff4545;
+        }
+
+        .result-title {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        .result-count {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .result-box.correct .result-count {
+            color: #22a022;
+        }
+
+        .result-box.incorrect .result-count {
+            color: #ff4545;
+        }
+
+        .result-detail {
+            font-size: 0.9em;
+            color: #999;
+        }
+
+        @media (max-width: 768px) {
+            .game-board {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎮 Pasapalabra 🎮</h1>
+            <a href="/">← Volver</a>
+        </div>
+
+        <div class="stats">
+            <div class="stat-item">
+                <div>Correctas</div>
+                <div class="stat-number" id="correct-count">0</div>
+            </div>
+            <div class="stat-item">
+                <div>Pregunta</div>
+                <div class="stat-number" id="current-count">1</div>
+            </div>
+            <div class="stat-item">
+                <div>Total</div>
+                <div class="stat-number" id="total-count">25</div>
+            </div>
+            <div class="stat-item">
+                <div>Palitos</div>
+                <div class="palitos-container">
+                    <button class="palitos-btn" onclick="decrementPalitos()">−</button>
+                    <div class="stat-number" id="palitos-count">0</div>
+                    <button class="palitos-btn" onclick="incrementPalitos()">+</button>
+                </div>
+            </div>
+            <div class="stat-item">
+                <div class="timer" id="timer">5:00</div>
+            </div>
+        </div>
+
+        <div class="results-container">
+            <div class="result-box correct">
+                <div class="result-title">Aciertos</div>
+                <div class="result-count" id="correct-visual">0</div>
+                <div class="result-detail" id="correct-percentage">0%</div>
+            </div>
+            <div class="result-box incorrect">
+                <div class="result-title">Fallos</div>
+                <div class="result-count" id="incorrect-visual">0</div>
+                <div class="result-detail" id="incorrect-percentage">0%</div>
+            </div>
+        </div>
+
+        <div class="game-board" id="game-board"></div>
+
+        <div class="question-box">
+            <h2>Pregunta <span id="question-letter">A</span></h2>
+            <div class="question-text" id="question-text">Cargando pregunta...</div>
+            <div class="input-group">
+                <input type="text" id="answer-input" placeholder="Escribe tu respuesta..." autocomplete="off">
+            </div>
+            <div class="buttons">
+                <button class="btn btn-correct" onclick="checkAnswer()">Responder</button>
+                <button class="btn btn-skip" onclick="skipQuestion()">Pasar</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let questions = [];
+        let currentIndex = 0;
+        let correctCount = 0;
+        let answered = {};
+        let timerInterval = null;
+        let timeRemaining = 300; // 5 minutos en segundos
+        let palitosCount = 0; // Contador de palitos
+
+        // Cargar preguntas al iniciar
+        async function loadQuestions() {
+            try {
+                const response = await fetch('/api/pasapalabra');
+                questions = await response.json();
+                initializeGame();
+                showQuestion();
+                startTimer();
+            } catch (error) {
+                console.error('Error cargando preguntas:', error);
+            }
+        }
+
+        function initializeGame() {
+            const board = document.getElementById('game-board');
+            board.innerHTML = '';
+
+            const radius = 350; // Radio del círculo - más grande para más separación
+            const centerX = 450; // Centro X (ajustado al nuevo tamaño)
+            const centerY = 450; // Centro Y (ajustado al nuevo tamaño)
+            const totalCircles = questions.length;
+
+            questions.forEach((q, index) => {
+                const angle = (index / totalCircles) * 2 * Math.PI - Math.PI / 2; // Empezar desde arriba
+                const x = centerX + radius * Math.cos(angle);
+                const y = centerY + radius * Math.sin(angle);
+
+                const circle = document.createElement('div');
+                circle.className = 'circle unanswered';
+                circle.style.left = (x - 40) + 'px'; // 40 es la mitad del tamaño del círculo
+                circle.style.top = (y - 40) + 'px';
+                circle.innerHTML = `<div class="circle-letter">${q.letter}</div><div class="circle-status">Sin responder</div>`;
+                circle.onclick = () => goToQuestion(index);
+                board.appendChild(circle);
+            });
+        }
+
+        function showQuestion() {
+            const question = questions[currentIndex];
+            document.getElementById('question-letter').textContent = question.letter;
+            document.getElementById('question-text').textContent = question.question;
+            document.getElementById('question-text').textContent = question.question;
+            document.getElementById('current-count').textContent = currentIndex + 1;
+            document.getElementById('answer-input').value = '';
+            document.getElementById('answer-input').focus();
+
+            updateBoard();
+        }
+
+        function updateBoard() {
+            const circles = document.querySelectorAll('.circle');
+            circles.forEach((circle, index) => {
+                circle.className = 'circle';
+
+                if (index === currentIndex) {
+                    circle.classList.add('current');
+                } else if (answered[index] !== undefined) {
+                    if (answered[index]) {
+                        circle.classList.add('correct');
+                    } else {
+                        circle.classList.add('incorrect');
+                    }
+                } else {
+                    circle.classList.add('unanswered');
+                }
+
+                const status = circle.querySelector('.circle-status');
+                if (answered[index] === true) {
+                    status.textContent = '✓ Correcta';
+                } else if (answered[index] === false) {
+                    status.textContent = '✗ Incorrecta';
+                } else if (index === currentIndex) {
+                    status.textContent = 'Preguntando';
+                } else {
+                    status.textContent = 'Sin responder';
+                }
+            });
+        }
+
+        function goToQuestion(index) {
+            currentIndex = index;
+            showQuestion();
+        }
+
+        function checkAnswer() {
+            const userAnswer = document.getElementById('answer-input').value.trim().toLowerCase();
+            const correctAnswer = questions[currentIndex].answer.toLowerCase();
+
+            if (userAnswer === correctAnswer) {
+                answered[currentIndex] = true;
+                correctCount++;
+                document.getElementById('correct-count').textContent = correctCount;
+                updateResultsVisual();
+                alert('¡Correcto! 🎉');
+                nextQuestion();
+            } else {
+                answered[currentIndex] = false;
+                updateResultsVisual();
+                alert(`Incorrecto. La respuesta era: ${questions[currentIndex].answer}`);
+                nextQuestion();
+            }
+        }
+
+        function skipQuestion() {
+            nextQuestion();
+        }
+
+        function nextQuestion() {
+            currentIndex++;
+            if (currentIndex < questions.length) {
+                showQuestion();
+            } else {
+                endGame();
+            }
+        }
+
+        function endGame() {
+            clearInterval(timerInterval);
+            const percentage = Math.round((correctCount / questions.length) * 100);
+            alert(`¡Juego terminado!\n\nRespuestas correctas: ${correctCount}/${questions.length}\nPuntuación: ${percentage}%\nPalitos: ${palitosCount}`);
+            goToQuestion(0);
+            correctCount = 0;
+            answered = {};
+            timeRemaining = 300;
+            palitosCount = 0; // Resetear palitos
+            document.getElementById('correct-count').textContent = '0';
+            document.getElementById('palitos-count').textContent = '0';
+            updateResultsVisual();
+            updateBoard();
+            showQuestion();
+            startTimer();
+        }
+
+        function startTimer() {
+            timeRemaining = 300; // Resetear a 5 minutos
+            updateTimerDisplay();
+
+            if (timerInterval) clearInterval(timerInterval);
+            timerInterval = setInterval(() => {
+                timeRemaining--;
+                updateTimerDisplay();
+
+                if (timeRemaining <= 0) {
+                    clearInterval(timerInterval);
+                    alert('¡Se acabó el tiempo! 🕐');
+                    endGame();
+                }
+            }, 1000);
+        }
+
+        function updateTimerDisplay() {
+            const minutes = Math.floor(timeRemaining / 60);
+            const seconds = timeRemaining % 60;
+            const timerElement = document.getElementById('timer');
+            timerElement.textContent = `${minutes}:${seconds.toString().padStart(2, '0')}`;
+
+            // Cambiar color según tiempo restante
+            if (timeRemaining <= 30) {
+                timerElement.className = 'timer danger';
+            } else if (timeRemaining <= 60) {
+                timerElement.className = 'timer warning';
+            } else {
+                timerElement.className = 'timer';
+            }
+        }
+
+        function updateResultsVisual() {
+            const answeredCount = Object.keys(answered).length;
+            const correctAnswers = Object.values(answered).filter(v => v === true).length;
+            const incorrectAnswers = Object.values(answered).filter(v => v === false).length;
+            const unanswered = answeredCount - correctAnswers - incorrectAnswers;
+
+            document.getElementById('correct-visual').textContent = correctAnswers;
+            document.getElementById('incorrect-visual').textContent = incorrectAnswers;
+            
+            const correctPercentage = answeredCount > 0 ? Math.round((correctAnswers / answeredCount) * 100) : 0;
+            const incorrectPercentage = answeredCount > 0 ? Math.round((incorrectAnswers / answeredCount) * 100) : 0;
+            
+            document.getElementById('correct-percentage').textContent = `${correctPercentage}%`;
+            document.getElementById('incorrect-percentage').textContent = `${incorrectPercentage}%`;
+        }
+
+        function incrementPalitos() {
+            palitosCount++;
+            document.getElementById('palitos-count').textContent = palitosCount;
+        }
+
+        function decrementPalitos() {
+            if (palitosCount > 0) {
+                palitosCount--;
+                document.getElementById('palitos-count').textContent = palitosCount;
+            }
+        }
+
+        // Permitir Enter para responder
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('answer-input').addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    checkAnswer();
+                }
+            });
+            loadQuestions();
+        });
+    </script>
+
+    {% include 'music-player.html' %}
+</body>
+</html>

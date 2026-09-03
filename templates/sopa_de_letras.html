@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sopa de Letras - Lolo y Rous</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #d4af37 0%, #8b0000 100%);
+            min-height: 100vh;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 1000px;
+            width: 100%;
+        }
+
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1em;
+            padding: 10px 20px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            display: inline-block;
+            transition: background 0.3s;
+        }
+
+        .header a:hover {
+            background: rgba(255, 255, 255, 0.4);
+        }
+
+        .game-container {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .question-box {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .question-box h2 {
+            color: #8b0000;
+            font-size: 1.3em;
+            margin-bottom: 15px;
+        }
+
+        .question-text {
+            font-size: 1.2em;
+            color: #333;
+            padding: 15px;
+            background: #f5f5f5;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .hint-section {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .btn-hint {
+            padding: 10px 20px;
+            background: #ff9800;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: bold;
+        }
+
+        .btn-hint:hover {
+            background: #e68900;
+            transform: scale(1.05);
+        }
+
+        .hint-text {
+            padding: 10px 15px;
+            background: #fff3cd;
+            border-left: 4px solid #ff9800;
+            border-radius: 5px;
+            color: #333;
+            font-weight: bold;
+            display: none;
+            margin-top: 10px;
+        }
+
+        .hint-text.visible {
+            display: block;
+        }
+
+        .sopa-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+
+        .sopa-grid {
+            display: inline-grid;
+            grid-template-columns: repeat(12, 40px);
+            gap: 8px;
+        }
+
+        .letter-cell {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #f0f0f0;
+            border: 2px solid #d4af37;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: all 0.2s;
+            user-select: none;
+        }
+
+        .letter-cell:hover {
+            background: #e0e0e0;
+            transform: scale(1.1);
+        }
+
+        .letter-cell.selected {
+            background: #d4af37;
+            color: white;
+            border-color: #8b0000;
+        }
+
+        .letter-cell.found {
+            background: #22a022;
+            color: white;
+            border-color: #22a022;
+        }
+
+        .answer-section {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .answer-section h3 {
+            color: #8b0000;
+            margin-bottom: 10px;
+        }
+
+        .answer-display {
+            font-size: 1.5em;
+            letter-spacing: 5px;
+            font-weight: bold;
+            color: #333;
+            padding: 15px;
+            background: #f5f5f5;
+            border-radius: 8px;
+            min-height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        .btn {
+            padding: 12px 25px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: bold;
+        }
+
+        .btn-check {
+            background: #22a022;
+            color: white;
+        }
+
+        .btn-check:hover {
+            background: #1a7a1a;
+        }
+
+        .btn-next {
+            background: #d4af37;
+            color: #8b0000;
+        }
+
+        .btn-next:hover {
+            background: #c99c27;
+        }
+
+        .btn-clear {
+            background: #666;
+            color: white;
+        }
+
+        .btn-clear:hover {
+            background: #555;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #f5f5f5;
+            border-radius: 8px;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-label {
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        .stat-value {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #d4af37;
+        }
+
+        @media (max-width: 768px) {
+            .sopa-grid {
+                grid-template-columns: repeat(10, 30px);
+                gap: 5px;
+            }
+
+            .letter-cell {
+                width: 30px;
+                height: 30px;
+                font-size: 0.9em;
+            }
+
+            .header h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔤 Sopa de Letras 🔤</h1>
+            <a href="/">← Volver</a>
+        </div>
+
+        <div class="stats">
+            <div class="stat-item">
+                <div class="stat-label">Dinero</div>
+                <div class="stat-value" id="money">€0</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-label">Pregunta</div>
+                <div class="stat-value" id="current-question">1</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-label">HighScore</div>
+                <div class="stat-value" id="highscore">€0</div>
+            </div>
+        </div>
+
+        <div class="game-container">
+            <div class="question-box">
+                <h2>Pregunta</h2>
+                <div class="question-text" id="question-text">Cargando pregunta...</div>
+            </div>
+
+            <div class="hint-section">
+                <button class="btn-hint" onclick="showHint()">💡 Pista</button>
+                <div class="hint-text" id="hint-text"></div>
+            </div>
+
+            <div class="sopa-container">
+                <div class="sopa-grid" id="sopa-grid"></div>
+            </div>
+
+            <div class="answer-section">
+                <h3>Tu respuesta</h3>
+                <div class="answer-display" id="answer-display">Selecciona las letras...</div>
+                <div class="buttons">
+                    <button class="btn btn-clear" onclick="clearSelection()">Limpiar</button>
+                    <button class="btn btn-check" onclick="checkAnswer()">Verificar</button>
+                    <button class="btn btn-next" onclick="nextQuestion()">Siguiente</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentQuestion = null;
+        let selectedLetters = [];
+        let sopaGrid = [];
+        let currentMoney = 0;
+        let highScore = localStorage.getItem('sopaHighScore') ? parseInt(localStorage.getItem('sopaHighScore')) : 0;
+        let questionNumber = 1;
+        let hintUsed = false;
+
+        // Cargar pregunta al iniciar
+        async function loadQuestion() {
+            try {
+                const response = await fetch('/api/sopa-de-letras');
+                const data = await response.json();
+                currentQuestion = data;
+                sopaGrid = data.sopa;
+                selectedLetters = [];
+                hintUsed = false;
+                
+                renderSopa();
+                updateDisplay();
+                clearHint();
+                
+                document.getElementById('current-question').textContent = questionNumber;
+            } catch (error) {
+                console.error('Error cargando pregunta:', error);
+            }
+        }
+
+        function renderSopa() {
+            const sopaElement = document.getElementById('sopa-grid');
+            sopaElement.innerHTML = '';
+
+            sopaGrid.forEach((fila, rowIndex) => {
+                fila.forEach((letra, colIndex) => {
+                    const cell = document.createElement('div');
+                    cell.className = 'letter-cell';
+                    cell.textContent = letra;
+                    cell.dataset.row = rowIndex;
+                    cell.dataset.col = colIndex;
+                    cell.onclick = () => selectLetter(rowIndex, colIndex, cell);
+                    sopaElement.appendChild(cell);
+                });
+            });
+        }
+
+        function selectLetter(row, col, cellElement) {
+            const cellKey = `${row}-${col}`;
+            
+            // Verificar si ya está seleccionado
+            const existingIndex = selectedLetters.findIndex(l => l.key === cellKey);
+            
+            if (existingIndex !== -1) {
+                // Deseleccionar
+                selectedLetters.splice(existingIndex, 1);
+                cellElement.classList.remove('selected');
+            } else {
+                // Seleccionar
+                selectedLetters.push({
+                    key: cellKey,
+                    letra: sopaGrid[row][col],
+                    element: cellElement
+                });
+                cellElement.classList.add('selected');
+            }
+            
+            updateDisplay();
+        }
+
+        function updateDisplay() {
+            const respuesta = selectedLetters.map(l => l.letra).join('');
+            document.getElementById('question-text').textContent = currentQuestion.pregunta;
+            document.getElementById('answer-display').textContent = respuesta || 'Selecciona las letras...';
+        }
+
+        function clearSelection() {
+            selectedLetters.forEach(l => {
+                document.querySelector(`[data-row="${l.key.split('-')[0]}"][data-col="${l.key.split('-')[1]}"]`).classList.remove('selected');
+            });
+            selectedLetters = [];
+            updateDisplay();
+        }
+
+        function showHint() {
+            const hintElement = document.getElementById('hint-text');
+            hintElement.textContent = `La respuesta es: ${currentQuestion.respuesta}`;
+            hintElement.classList.add('visible');
+            
+            if (!hintUsed) {
+                hintUsed = true;
+                currentMoney -= 50;
+                if (currentMoney < 0) currentMoney = 0;
+                updateMoneyDisplay();
+            }
+        }
+
+        function clearHint() {
+            document.getElementById('hint-text').classList.remove('visible');
+        }
+
+        function checkAnswer() {
+            const userAnswer = selectedLetters.map(l => l.letra).join('').toUpperCase();
+            const correctAnswer = currentQuestion.respuesta_sin_espacios.toUpperCase();
+
+            if (userAnswer === correctAnswer) {
+                alert('¡Correcto! +100€ 🎉');
+                currentMoney += 100;
+                updateMoneyDisplay();
+                selectedLetters.forEach(l => {
+                    document.querySelector(`[data-row="${l.key.split('-')[0]}"][data-col="${l.key.split('-')[1]}"]`).classList.add('found');
+                    document.querySelector(`[data-row="${l.key.split('-')[0]}"][data-col="${l.key.split('-')[1]}"]`).classList.remove('selected');
+                });
+                questionNumber++;
+                setTimeout(nextQuestion, 500);
+            } else {
+                alert('Intenta de nuevo 🤔');
+            }
+        }
+
+        function nextQuestion() {
+            loadQuestion();
+        }
+
+        function updateMoneyDisplay() {
+            document.getElementById('money').textContent = '€' + currentMoney;
+            
+            // Actualizar highscore si es necesario
+            if (currentMoney > highScore) {
+                highScore = currentMoney;
+                localStorage.setItem('sopaHighScore', highScore);
+                document.getElementById('highscore').textContent = '€' + highScore;
+            }
+        }
+
+        // Cargar primera pregunta
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('highscore').textContent = '€' + highScore;
+            loadQuestion();
+        });
+    </script>
+
+    {% include 'music-player.html' %}
+</body>
+</html>
