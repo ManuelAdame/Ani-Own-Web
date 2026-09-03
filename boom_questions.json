@@ -16,39 +16,44 @@
       "incorrect_option": "2 de diciembre"
     },
     {
-      "question": "¿Qué asignaturas eran troncales en Selectividad para nosotros?",
-      "correct_options": ["Matemáticas", "Inglés", "Lengua", "Historia"],
-      "incorrect_option": "Filosofía"
+      "question": "¿Cuáles son cumpleaños de la familia?",
+      "correct_options": ["25 de Junio", "28 de Mayo", "5 de Junio", "30 de Enero"],
+      "incorrect_option": "12 de Mayo"
     },
     {
-      "question": "¿Qué marcas de zapatos le ha regalado Lolo a Rousi?",
-      "correct_options": ["Coolway", "Columbia", "Adidas", "Esta está bien"],
-      "incorrect_option": "Nike"
+      "question": "¿Qué paises hemos visitado en familia?",
+      "correct_options": ["Francia", "Italia", "República Checa", "Portugal"],
+      "incorrect_option": "Alemania"
     },
     {
-      "question": "¿Qué cócteles hemos pedido en bares estando los dos en ese mismo sitio?",
-      "correct_options": ["San Francisco", "Daikiri", "Piña Colada", "Mojito"],
-      "incorrect_option": "Sex on the beach"
+      "question": "Qué números ha llevado tu queridísimo hermano en baloncesto?",
+      "correct_options": ["60", "8", "10", "13"],
+      "incorrect_option": "4"
     },
     {
-      "question": "¿Qué platos hemos probado del ikea?",
-      "correct_options": ["Codillo", "Alitas", "Tarta de Chocolate", "Café"],
-      "incorrect_option": "Medallón de Merluza"
+      "question": "¿Dónde ha trabajado Mami?",
+      "correct_options": ["Sanlúcar la Mayor", "Aznalcóllar", "Virgen del Rocío", "Hospital Macarena"],
+      "incorrect_option": "Gines"
     },
     {
-      "question": "¿Qué paises hemos visitado los dos a la vez?",
-      "correct_options": ["Alemania", "Inglaterra", "España", "Esta está bien"],
-      "incorrect_option": "Portugal"
+      "question": "¿Dónde ha trabajado Papi?",
+      "correct_options": ["Agencia Tributaria Sevilla", "Huelva", "Almería", "Benacazón(Alcalde)"],
+      "incorrect_option": "Málaga"
     },
     {
-      "question": "¿Qué comidas comimos en Londres?",
-      "correct_options": ["Hamburger", "Funky Chips", "Corn Dog", "Sushidog"],
-      "incorrect_option": "Fish and Chips"
+      "question": "¿Qué profesores no han sido tutores tuyos?",
+      "correct_options": ["Eduardo", "Nicolás", "Fernando de Cáceres", "Carmen del Peso"],
+      "incorrect_option": "Cordero"
     },
     {
-      "question": "¿Qué videojuegos ha jugado Rousi conmigo?",
-      "correct_options": ["Juegos Olímpicos Londres 2012", "Eurotruck Simulator", "Day Z", "Pro 2006"],
-      "incorrect_option": "FIFA"
+      "question": "¿Cuáles son calles del pueblo?",
+      "correct_options": ["Rubio", "Santísimo Cristo Yacente", "Manuel de Falla", "Nueva"],
+      "incorrect_option": "Carmen Mola"
+    },
+    {
+      "question": "¿Quiénes aparecían en Bob Esponja?",
+      "correct_options": ["Tritonman", "Gary", "Mrs Puff", "Perla"],
+      "incorrect_option": "Sr Navaja"
     }
   ]
 }
