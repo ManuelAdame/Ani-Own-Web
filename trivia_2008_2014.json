@@ -1,0 +1,199 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "¿En qué planta estaba el piso de Matalascañas?",
+      "image": "static/images/trivia/_MG_0623.JPG",
+      "answer_image": "static/images/trivia/_MG_0623.JPG",
+      "options": [
+        "1º",
+        "2º",
+        "3º",
+        "4º"
+      ],
+      "correct_answer": 3
+    },
+    {
+      "id": 2,
+      "question": "¿De qué color era el globo de Ana en esta foto?",
+      "image": "static/images/trivia/Gemini_Generated_Image_y8l6uyy8l6uyy8l6.png",
+      "answer_image": "static/images/trivia/_MG_6470.JPG",
+      "options": [
+        "Morado",
+        "Verde",
+        "Blanco",
+        "Azul"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "id": 3,
+      "question": "¿De qué color iba Ani vestida en la boda del Tito Francisco?",
+      "image": "static/images/trivia/Gemini_Generated_Image_smn18usmn18usmn1.png",
+      "answer_image": "static/images/trivia/_MG_7080.JPG",
+      "options": [
+        "Verde",
+        "Azul",
+        "Blanco",
+        "Rosa Fucsia Buganvilla"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "id": 4,
+      "question": "¿De quién era esta casa?",
+      "image": "static/images/trivia/_MG_8045.JPG",
+      "answer_image": "static/images/trivia/_MG_8045.JPG",
+      "options": [
+        "Tito Hilario",
+        "Abuela Ana",
+        "Tito Manolo",
+        "Tita Blanca"
+      ],
+      "correct_answer": 3
+    },
+    {
+      "id": 5,
+      "question": "¿De qué iba Ani disfrazada en esta foto?",
+      "image": "static/images/trivia/B0017718.JPG",
+      "answer_image": "static/images/trivia/B0017718a.JPG",
+      "options": [
+        "De cabra",
+        "De dálmata",
+        "De pescado",
+        "De vaca"
+      ],
+      "correct_answer": 3
+    },
+    {
+      "id": 6,
+      "question": "¿En qué año se tomó esta foto?",
+      "image": "static/images/trivia/B0018114a.JPG",
+      "answer_image": "static/images/trivia/B0018114.JPG",
+      "options": [
+        "2011",
+        "2012",
+        "2013",
+        "2014"
+      ],
+      "correct_answer": 2
+    },
+    {
+      "id": 7,
+      "question": "¿Quién falta en esta foto?",
+      "image": "static/images/trivia/Gemini_Generated_Image_of9gtyof9gtyof9g.png",
+      "answer_image": "static/images/trivia/B0018620.JPG",
+      "options": [
+        "Abuela Nieves",
+        "Abuelo Antoñito",
+        "Tito Antonio",
+        "Papi"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "id": 8,
+      "question": "¿Cuántos años cumplía Felipe en esta foto?",
+      "image": "static/images/trivia/B0028056b.jpg",
+      "answer_image": "static/images/trivia/B0028056.jpg",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "id": 9,
+      "question": "¿De qué color es el cochecito de Winnie The Poo?",
+      "image": "static/images/trivia/Gemini_Generated_Image_tz4cj3tz4cj3tz4c.png",
+      "answer_image": "static/images/trivia/IMG_0398.JPG",
+      "options": [
+        "Rojo",
+        "Azul",
+        "Verde",
+        "Naranja"
+      ],
+      "correct_answer": 3
+    },
+    {
+      "id": 10,
+      "question": "¿Dónde se celebró tu quinto cumpleaños?",
+      "image": "static/images/trivia/IMG_3161.JPG",
+      "answer_image": "static/images/trivia/IMG_3161.JPG",
+      "options": [
+        "En nuestra casa",
+        "En casa de Abuela Ana y Abuelo Francisco",
+        "En casa de Abuela Nieves y Abuelo Antoñito",
+        "En el campo de Abuelo Antoñito"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "id": 11,
+      "question": "¿De qué era la mochila en tu primer día de clase?",
+      "image": "static/images/trivia/Gemini_Generated_Image_pgx9f7pgx9f7pgx9.png",
+      "answer_image": "static/images/trivia/IMG_3480.JPG",
+      "options": [
+        "Princesas Disney",
+        "La Patrulla Canina",
+        "Mickey y Minnie",
+        "Los Pitufos"
+      ],
+      "correct_answer": 2
+    },
+    {
+      "id": 12,
+      "question": "¿De qué color ibais vestidas de campana?",
+      "image": "static/images/trivia/Gemini_Generated_Image_5uicbw5uicbw5uic.png",
+      "answer_image": "static/images/trivia/IMG_3717.JPG",
+      "options": [
+        "Rojo",
+        "Azul medianoche",
+        "Verde lima",
+        "Negro chillón"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "id": 13,
+      "question": "¿De qué color era el vestido de la princhipesa en esta foto?",
+      "image": "static/images/trivia/Gemini_Generated_Image_pz6spgpz6spgpz6s.png",
+      "answer_image": "static/images/trivia/IMG-20200829-WA0033.jpg",
+      "options": [
+        "Azul y Negro",
+        "Verde y Negro",
+        "Blanco y Rosa",
+        "Morado y Naranja"
+      ],
+      "correct_answer": 2
+    },
+    {
+      "id": 14,
+      "question": "¿Quién llevó a mami al hospital el día de tu parto?",
+      "image": "static/images/trivia/WhatsApp Image 2026-08-26 at 13.13.56 (1).jpeg",
+      "answer_image": "static/images/trivia/WhatsApp Image 2026-08-26 at 13.13.56 (1).jpeg",
+      "options": [
+        "Tita María",
+        "Papi",
+        "Tito Francisco",
+        "Abuelo Francisco"
+      ],
+      "correct_answer": 3
+    },
+    {
+      "id": 15,
+      "question": "¿Cómo se llamaba nuestra urbanización antigua de la playa?",
+      "image": "static/images/trivia/IMG_3319.JPG",
+      "answer_image": "static/images/trivia/IMG_3319.JPG",
+      "options": [
+        "Urbalan Golf",
+        "Matahaca",
+        "Nautico Golf",
+        "Montecarlo Residencial"
+      ],
+      "correct_answer": 0
+    }
+  ]
+}

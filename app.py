@@ -18,21 +18,17 @@ with open('sopa_questions.json', 'r', encoding='utf-8') as f:
 with open('boom_questions.json', 'r', encoding='utf-8') as f:
     boom_questions_data = json.load(f)
 
-# Cargar preguntas para trivia 2004-2022
-with open('trivia_2004_2022.json', 'r', encoding='utf-8') as f:
-    trivia_2004_2022_data = json.load(f)
+# Cargar preguntas para trivia 2008-2014
+with open('trivia_2008_2014.json', 'r', encoding='utf-8') as f:
+    trivia_2008_2014_data = json.load(f)
 
-# Cargar preguntas para trivia 2023
-with open('trivia_2023.json', 'r', encoding='utf-8') as f:
-    trivia_2023_data = json.load(f)
+# Cargar preguntas para trivia 2015-2020
+with open('trivia_2015-2020.json', 'r', encoding='utf-8') as f:
+    trivia_2015_2020_data = json.load(f)
 
-# Cargar preguntas para trivia 2024
-with open('trivia_2024.json', 'r', encoding='utf-8') as f:
-    trivia_2024_data = json.load(f)
-
-# Cargar preguntas para trivia 2025
-with open('trivia_2025.json', 'r', encoding='utf-8') as f:
-    trivia_2025_data = json.load(f)
+# Cargar preguntas para trivia 2021-2026
+with open('trivia_2021-2026.json', 'r', encoding='utf-8') as f:
+    trivia_2021_2026_data = json.load(f)
 
 @app.route('/')
 def index():
@@ -61,21 +57,17 @@ def sopa_de_letras():
 def boom():
     return render_template('boom.html')
 
-@app.route('/trivia-2004-2022')
-def trivia_2004_2022():
-    return render_template('trivia_2004_2022.html')
+@app.route('/trivia-2008-2014')
+def trivia_2008_2014():
+    return render_template('trivia_2008_2014.html')
 
-@app.route('/trivia-2023')
-def trivia_2023():
-    return render_template('trivia_2023.html')
+@app.route('/trivia-2015-2020')
+def trivia_2015_2020():
+    return render_template('trivia_2015-2020.html')
 
-@app.route('/trivia-2024')
-def trivia_2024():
-    return render_template('trivia_2024.html')
-
-@app.route('/trivia-2025')
-def trivia_2025():
-    return render_template('trivia_2025.html')
+@app.route('/trivia-2021-2026')
+def trivia_2021_2026():
+    return render_template('trivia_2021-2026.html')
 
 @app.route('/api/pasapalabra')
 def get_pasapalabra():
@@ -164,25 +156,23 @@ def get_boom():
         'incorrect_option': pregunta['incorrect_option']
     })
 
+@app.route('/api/trivia-2008-2014')
 @app.route('/api/trivia-2004-2022')
-def get_trivia_2004_2022():
+def get_trivia_2008_2014():
     # Retornar todas las preguntas en orden
-    return jsonify(trivia_2004_2022_data)
+    return jsonify(trivia_2008_2014_data)
 
+@app.route('/api/trivia-2015-2020')
 @app.route('/api/trivia-2023')
-def get_trivia_2023():
+def get_trivia_2015_2020():
     # Retornar todas las preguntas en orden
-    return jsonify(trivia_2023_data)
+    return jsonify(trivia_2015_2020_data)
 
+@app.route('/api/trivia-2021-2026')
 @app.route('/api/trivia-2024')
-def get_trivia_2024():
+def get_trivia_2021_2026():
     # Retornar todas las preguntas en orden
-    return jsonify(trivia_2024_data)
-
-@app.route('/api/trivia-2025')
-def get_trivia_2025():
-    # Retornar todas las preguntas en orden
-    return jsonify(trivia_2025_data)
+    return jsonify(trivia_2021_2026_data)
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))

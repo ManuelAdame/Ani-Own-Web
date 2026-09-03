@@ -11,9 +11,9 @@
       "incorrect_option": "Tito Francisco"
     },
     {
-      "question": "¿Qué profesores fueron tutores nuestros?",
-      "correct_options": ["Carmen del Peso", "Mr Charles", "Joaquina", "Fernando de Cáceres"],
-      "incorrect_option": "Eduardo"
+      "question": "¿Qué día no se casaron nuestros padres?",
+      "correct_options": ["13 de marzo", "7 de junio", "3 de septiembre", "14 de enero"],
+      "incorrect_option": "2 de diciembre"
     },
     {
       "question": "¿Qué asignaturas eran troncales en Selectividad para nosotros?",
