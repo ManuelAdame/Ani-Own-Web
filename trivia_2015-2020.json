@@ -2,222 +2,196 @@
   "questions": [
     {
       "id": 1,
-      "question": "¿Qué amiguit@ falta en la foto?",
-      "image": "static/images/trivia/Gemini_Generated_Image_qf05pfqf05pfqf05.png",
-      "answer_image": "static/images/trivia/WhatsApp Image 2026-01-03 at 12.51.31.jpeg",
+      "question": "¿Donde fue tomada esta foto?",
+      "image": "static/images/trivia2/_MG_2534.JPG",
+      "answer_image": "static/images/trivia2/_MG_2534.JPG",
       "options": [
-        "Dora The Explorer",
-        "Chum Chum",
-        "La peppa",
-        "Encarni la del pueblo"
+        "Casa Abuela Nieves y Abuelo Antoñito",
+        "Casa esa que está para cuando viene Maribel",
+        "Casa tito Antonio",
+        "Floristería Dori"
       ],
-      "correct_answer": 2
+      "correct_answer": 1
     },
     {
       "id": 2,
-      "question": "¿De quién era esta caseta?",
-      "image": "static/images/trivia/WhatsApp Image 2026-01-03 at 12.51.31 (1).jpeg",
-      "answer_image": "static/images/trivia/WhatsApp Image 2026-01-03 at 12.51.31 (1).jpeg",
+      "question": "¿De qué era el dibujo en la camiseta?",
+      "image": "static/images/trivia2/Gemini_Generated_Image_6jjeml6jjeml6jje.jpg",
+      "answer_image": "static/images/trivia2/_MG_6134.JPG",
       "options": [
-        "Bida Farma",
-        "Tronco",
-        "Luis Frutos Mantero",
-        "BLANCA MOLINAAAAA"
+        "Gira de Manuel Carrasco",
+        "Felipe en patines",
+        "Tita Nieves de nazarena",
+        "Ana volando por los aires en la piscina"
       ],
       "correct_answer": 3
     },
     {
       "id": 3,
-      "question": "¿Qué partido vimos ese día?",
-      "image": "static/images/trivia/WhatsApp Image 2026-01-03 at 12.51.32.jpeg",
-      "answer_image": "static/images/trivia/WhatsApp Image 2026-01-03 at 12.51.32.jpeg",
+      "question": "¿De qué marca era esta tablet(Esta es complicada)?",
+      "image": "static/images/trivia2/_MG_6820b.JPG",
+      "answer_image": "static/images/trivia2/_MG_6820.JPG",
       "options": [
-        "Betis-Murcia",
-        "UD Tomares-Villanueva de la Concepción",
-        "Loyola Universidad-Comillas",
-        "Harlem Globetrotters-Los otros"
+        "Huawei",
+        "Lenovo",
+        "Motorola",
+        "Asus"
       ],
-      "correct_answer": 3
+      "correct_answer": 0
     },
     {
       "id": 4,
-      "question": "¿Qué manjar está catando Ela?",
-      "image": "static/images/trivia/Gemini_Generated_Image_pp8649pp8649pp86.png",
-      "answer_image": "static/images/trivia/WhatsApp Image 2026-01-03 at 12.51.33.jpeg",
+      "question": "¿Cuántos años cumplías en esta foto?",
+      "image": "static/images/trivia2/_MG_7330c.JPG",
+      "answer_image": "static/images/trivia2/_MG_7330.JPG",
       "options": [
-        "Tarta de la Rousi",
-        "Fuet",
-        "Jamón Ibérico de Bellota",
-        "Quesito Don Apolonio"
+        "8",
+        "9",
+        "10",
+        "11"
       ],
-      "correct_answer": 1
+      "correct_answer": 2
     },
     {
       "id": 5,
-      "question": "¿Quién nos acompañó al principio de ese concierto?",
-      "image": "static/images/trivia/WhatsApp Image 2026-01-03 at 12.51.32 (1).jpeg",
-      "answer_image": "static/images/trivia/WhatsApp Image 2026-01-03 at 12.51.32 (1).jpeg",
+      "question": "¿Qué dibujo tiene esta camiseta?",
+      "image": "static/images/trivia2/_MG_7444.JPG",
+      "answer_image": "static/images/trivia2/_MG_7448.JPG",
       "options": [
-        "Meris Sorian",
-        "Meris Moren",
-        "Peric Mat Baló",
-        "No one no one no oneeee"
+        "Un corazón",
+        "Una flor",
+        "Una piruleta",
+        "Unas manos"
       ],
       "correct_answer": 0
     },
     {
       "id": 6,
-      "question": "¿Cómo se llama esta atracción que repetimos después de hartarnos a reclamar?",
-      "image": "static/images/trivia/WhatsApp Image 2026-01-03 at 12.51.33 (1).jpeg",
-      "answer_image": "static/images/trivia/WhatsApp Image 2026-01-03 at 12.51.33 (1).jpeg",
+      "question": "¿Quién falta en esta foto?",
+      "image": "static/images/trivia2/_MG_7711d.JPG",
+      "answer_image": "static/images/trivia2/_MG_7711.JPG",
       "options": [
-        "Anaconda",
-        "El tren del Potosí",
-        "Jaguar",
-        "Iguazú"
+        "Tita María",
+        "Nadie",
+        "Tito Francisco",
+        "Linda"
       ],
       "correct_answer": 0
     },
     {
       "id": 7,
-      "question": "¿Qué amiguit@ falta en la foto?",
-      "image": "static/images/trivia/Gemini_Generated_Image_73y0y473y0y473y0.png",
-      "answer_image": "static/images/trivia/WhatsApp Image 2026-01-03 at 12.51.34.jpeg",
+      "question": "¿De quién era el regalo más grande este año?",
+      "image": "static/images/trivia2/_MG_7741.JPG",
+      "answer_image": "static/images/trivia2/_MG_7741e.JPG",
       "options": [
-        "Steve",
-        "Diego J",
-        "Albert",
-        "Claudia la novia del militar"
+        "Papi",
+        "Mami",
+        "Ana",
+        "Manolo"
       ],
       "correct_answer": 2
     },
     {
       "id": 8,
-      "question": "¿Dónde tuvo lugar la foto?",
-      "image": "static/images/trivia/WhatsApp Image 2026-01-03 at 12.51.36 (1).jpeg",
-      "answer_image": "static/images/trivia/da.jpeg",
+      "question": "¿Dónde estábamos comiendo ese día?",
+      "image": "static/images/trivia2/_MG_7855.JPG",
+      "answer_image": "static/images/trivia2/_MG_7855.JPG",
       "options": [
-        "Casa Rousi",
-        "Casa Lolo La Antilla",
-        "Casa Ela",
-        "Casa Lolo Bnk"
+        "Rodri",
+        "La casa del choco",
+        "Mar de Leva",
+        "El Lolo"
       ],
       "correct_answer": 3
     },
     {
       "id": 9,
       "question": "¿Dónde tuvo lugar esta foto?",
-      "image": "static/images/trivia/WhatsApp Image 2026-01-03 at 12.51.36 (2).jpeg",
-      "answer_image": "static/images/trivia/WhatsApp Image 2026-01-03 at 12.51.36 (2).jpeg",
+      "image": "static/images/trivia2/IMG_0345.JPG",
+      "answer_image": "static/images/trivia2/IMG_0345.JPG",
       "options": [
-        "Tomares Como a Ti Te Gusta",
-        "Alcalá de guadasjdnaje",
+        "Valencia",
+        "Cuenca",
         "Benacazón",
-        "Sevilla Centro"
+        "París"
       ],
       "correct_answer": 0
     },
     {
       "id": 10,
-      "question": "¿Qué piso es este(tenía que poner alguna imposible)?",
-      "image": "static/images/trivia/WhatsApp Image 2026-01-03 at 12.51.36.jpeg",
-      "answer_image": "static/images/trivia/WhatsApp Image 2026-01-03 at 12.51.36.jpeg",
+      "question": "¿De qué año es esta foto?",
+      "image": "static/images/trivia2/IMG_0857.JPG",
+      "answer_image": "static/images/trivia2/IMG_0857.JPG",
       "options": [
-        "2ºA",
-        "2ºB",
-        "2ºC",
-        "2ºD"
+        "2017",
+        "2018",
+        "2019",
+        "2020"
       ],
       "correct_answer": 1
     },
     {
       "id": 11,
       "question": "¿Qué amiguit@ falta en la foto?",
-      "image": "static/images/trivia/Gemini_Generated_Image_6wo2as6wo2as6wo2.png",
-      "answer_image": "static/images/trivia/WhatsApp Image 2026-01-03 at 12.51.37 (1).jpeg",
+      "image": "static/images/trivia2/Gemini_Generated_Image_uba8xjuba8xjuba8.jpg",
+      "answer_image": "static/images/trivia2/IMG_8530.JPG",
       "options": [
-        "El Militar",
-        "Steve(ELA)",
-        "Albert",
-        "Un random que entró en el coche"
+        "Emma",
+        "Hugo",
+        "Noa",
+        "Rocío"
       ],
       "correct_answer": 1
     },
     {
       "id": 12,
-      "question": "¿Cómo se llaman estos dos personajes de la caja?",
-      "image": "static/images/trivia/WhatsApp Image 2026-01-03 at 12.51.37.jpeg",
-      "answer_image": "static/images/trivia/WhatsApp Image 2026-01-03 at 12.51.37.jpeg",
+      "question": "¿En qué mes vino Linda con nosotros?",
+      "image": "static/images/trivia2/IMG_20200821_110040_7.jpg",
+      "answer_image": "static/images/trivia2/IMG_20200821_110040_7.jpg",
       "options": [
-        "Rousi y Lolo",
-        "Gumball y Darwin",
-        "Michael y Flora",
-        "Steve y Alex"
+        "Diciembre 2019",
+        "Enero 2020",
+        "Febrero 2020",
+        "Marzo 2020"
       ],
       "correct_answer": 3
     },
     {
       "id": 13,
       "question": "¿Qué amiguit@ falta en la foto?",
-      "image": "static/images/trivia/Gemini_Generated_Image_obd7o3obd7o3obd7.png",
-      "answer_image": "static/images/trivia/WhatsApp Image 2026-01-03 at 12.51.38 (1).jpeg",
+      "image": "static/images/trivia2/Gemini_Generated_Image_vqb92tvqb92tvqb9.jpg",
+      "answer_image": "static/images/trivia2/IMG_20210516_221253_3.jpg",
       "options": [
-        "Peric Mat Baló",
-        "Meris Sorian",
-        "Meris Moren",
-        "Dobby"
+        "Linda",
+        "Linda pero con los ojos cerrados",
+        "Linda pero comiendo",
+        "Linda pero boca arriba"
       ],
-      "correct_answer": 0
+      "correct_answer": 1
     },
     {
       "id": 14,
-      "question": "¿De qué color jugaba rousi al baskebol?",
-      "image": "static/images/trivia/Gemini_Generated_Image_g57yelg57yelg57y.png",
-      "answer_image": "static/images/trivia/WhatsApp Image 2026-01-03 at 12.51.40.jpeg",
+      "question": "¿Dónde fue tomada esta icónica foto?",
+      "image": "static/images/trivia2/IMG-20170205-WA0006.jpg",
+      "answer_image": "static/images/trivia2/IMG-20170205-WA0006.jpg",
       "options": [
-        "Morado",
-        "Blanco",
-        "Azul",
-        "Rojo"
+        "Barcelona",
+        "Málaga",
+        "Lisboa",
+        "Ámsterdam"
       ],
       "correct_answer": 2
     },
     {
       "id": 15,
-      "question": "¿Qué hay en el fondo de esta mítica foto?",
-      "image": "static/images/trivia/WhatsApp Image 2026-01-03 at 12.51.42.jpeg",
-      "answer_image": "static/images/trivia/dasdad.jpeg",
+      "question": "¿Qué te ragalaron este año",
+      "image": "static/images/trivia2/magic_1599327290526f.jpg",
+      "answer_image": "static/images/trivia2/magic_1599327290526.jpg",
       "options": [
         "Sudaderón impresionante",
         "Una baraja de cartas",
-        "La plaquita",
-        "Patatas y Agua"
-      ],
-      "correct_answer": 3
-    },
-    {
-      "id": 16,
-      "question": "¿Qué amiguit@ falta en la foto?",
-      "image": "static/images/trivia/papaapapa.jpeg",
-      "answer_image": "static/images/trivia/WhatsApp Image 2026-01-03 at 12.51.38.jpeg",
-      "options": [
-        "No one no one no oneeee",
-        "El Militar",
-        "Albert",
-        "Merin"
-      ],
-      "correct_answer": 1
-    },
-    {
-      "id": 17,
-      "question": "¿Qué tiene Rousi en la mano?",
-      "image": "static/images/trivia/ñañañña.jpeg",
-      "answer_image": "static/images/trivia/WhatsApp Image 2026-01-03 at 12.51.43.jpeg",
-      "options": [
-        "A Gala",
-        "Nothing bro whatyoumean",
-        "Los apuntes de toxicología",
-        "La Cerdita"
+        "Los patines",
+        "Un móvil"
       ],
       "correct_answer": 3
     }
