@@ -100,7 +100,7 @@
         "Rodri",
         "La casa del choco",
         "Mar de Leva",
-        "El Lolo"
+        "El Lobo"
       ],
       "correct_answer": 3
     },
@@ -184,7 +184,7 @@
     },
     {
       "id": 15,
-      "question": "¿Qué te ragalaron este año",
+      "question": "¿Qué te regalaron este año",
       "image": "static/images/trivia2/magic_1599327290526f.jpg",
       "answer_image": "static/images/trivia2/magic_1599327290526.jpg",
       "options": [
